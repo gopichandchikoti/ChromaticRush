@@ -1,0 +1,450 @@
+{
+  "id": 1,
+  "name": "First Light",
+  "theme": "Quiet cyan observatory; learn the matching contact.",
+  "accent": "#58E1DF",
+  "levels": [
+    {
+      "id": 1,
+      "name": "A Small Beginning",
+      "world": 1,
+      "subtitle": "Find your color before the first lift.",
+      "par": 32,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 0.6,
+          "phase": 0.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 155,
+          "speed": 0.65,
+          "phase": 1.15,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 0.7,
+          "phase": 2.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sideways Signal",
+      "world": 1,
+      "subtitle": "Sliding bands teach a different rhythm.",
+      "par": 36,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 0.65,
+          "phase": 0.35,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 0.75,
+          "phase": 2.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 0.7,
+          "phase": 4.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Three Quiet Orbits",
+      "world": 1,
+      "subtitle": "Three rotations, three deliberate launches.",
+      "par": 38,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 0.7,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 180,
+          "speed": 0.6,
+          "phase": 3.0,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 140,
+          "speed": 0.85,
+          "phase": 4.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Long Step",
+      "world": 1,
+      "subtitle": "A higher reach rewards a second tap.",
+      "par": 40,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 195,
+          "speed": 0.65,
+          "phase": 1.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 0.8,
+          "phase": 3.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 175,
+          "speed": 0.75,
+          "phase": 5.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Counterweight",
+      "world": 1,
+      "subtitle": "Read a slide between two calm rings.",
+      "par": 42,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 155,
+          "speed": 0.9,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 180,
+          "speed": 0.6,
+          "phase": 4.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 160,
+          "speed": 0.95,
+          "phase": 0.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 0.85,
+          "phase": 3.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Signal Ladder",
+      "world": 1,
+      "subtitle": "Keep your pace while the distances change.",
+      "par": 42,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 140,
+          "speed": 0.8,
+          "phase": 1.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 170,
+          "speed": 0.9,
+          "phase": 3.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 195,
+          "speed": 0.65,
+          "phase": 5.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 0.85,
+          "phase": 0.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Twilight Crossing",
+      "world": 1,
+      "subtitle": "Alternate observation with quick lifts.",
+      "par": 44,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 0.95,
+          "phase": 4.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 150,
+          "speed": 0.75,
+          "phase": 0.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 180,
+          "speed": 0.85,
+          "phase": 2.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 165,
+          "speed": 1.0,
+          "phase": 5.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Slow Before Fast",
+      "world": 1,
+      "subtitle": "A slow opening makes a quick finish readable.",
+      "par": 46,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 190,
+          "speed": 0.6,
+          "phase": 2.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 1.05,
+          "phase": 4.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 175,
+          "speed": 0.85,
+          "phase": 0.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 160,
+          "speed": 1.1,
+          "phase": 3.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Aperture Study",
+      "world": 1,
+      "subtitle": "Five contacts form a measured ascent.",
+      "par": 48,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 0.8,
+          "phase": 5.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.0,
+          "phase": 1.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 185,
+          "speed": 0.75,
+          "phase": 3.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 140,
+          "speed": 1.05,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 170,
+          "speed": 0.95,
+          "phase": 2.0,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "First Light Finale",
+      "world": 1,
+      "subtitle": "Combine long reaches and shifting bands.",
+      "par": 52,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 165,
+          "speed": 1.0,
+          "phase": 3.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 195,
+          "speed": 0.85,
+          "phase": 5.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 1.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 175,
+          "speed": 1.0,
+          "phase": 3.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 185,
+          "speed": 0.9,
+          "phase": 0.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    }
+  ]
+}

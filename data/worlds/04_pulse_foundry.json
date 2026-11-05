@@ -1,0 +1,541 @@
+{
+  "id": 4,
+  "name": "Pulse Foundry",
+  "theme": "Gold signal presses; timed pulses demand a launch window.",
+  "accent": "#F4CA64",
+  "levels": [
+    {
+      "id": 31,
+      "name": "Open On The Beat",
+      "world": 4,
+      "subtitle": "The pulse must be open and your color must match.",
+      "par": 48,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 0.65,
+          "phase": 0.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 0.95,
+          "phase": 2.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 0.7,
+          "phase": 4.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Brass Interval",
+      "world": 4,
+      "subtitle": "A pendulum separates two pulse periods.",
+      "par": 51,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 0.75,
+          "phase": 0.9,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 3.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 42
+        },
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 0.65,
+          "phase": 5.3,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.15,
+          "phase": 1.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Four Count",
+      "world": 4,
+      "subtitle": "A switch changes the target before a pulse.",
+      "par": 52,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 0.95,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 180,
+          "speed": 0.8,
+          "phase": 4.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.42
+        },
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 1.2,
+          "phase": 0.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 0.85,
+          "phase": 2.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Foundry Floor",
+      "world": 4,
+      "subtitle": "Close spacing asks you to stop and observe.",
+      "par": 53,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 140,
+          "speed": 0.9,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "slide",
+          "gap": 150,
+          "speed": 1.25,
+          "phase": 4.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 0.75,
+          "phase": 1.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.42
+        },
+        {
+          "kind": "pendulum",
+          "gap": 170,
+          "speed": 1.1,
+          "phase": 3.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Hot Metal",
+      "world": 4,
+      "subtitle": "A long reach lands into a new color identity.",
+      "par": 55,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 195,
+          "speed": 1.0,
+          "phase": 3.3,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 150,
+          "speed": 0.85,
+          "phase": 5.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.42
+        },
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.05,
+          "phase": 1.8,
+          "offset": 1,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 160,
+          "speed": 0.95,
+          "phase": 4.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Clockwork Petals",
+      "world": 4,
+      "subtitle": "Alternate pulses and color switches.",
+      "par": 58,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 160,
+          "speed": 0.8,
+          "phase": 4.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "switch",
+          "gap": 185,
+          "speed": 0.95,
+          "phase": 0.6,
+          "offset": 3,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 1.0,
+          "phase": 2.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.42
+        },
+        {
+          "kind": "switch",
+          "gap": 170,
+          "speed": 1.1,
+          "phase": 5.1,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 0.9,
+          "phase": 1.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Silent Strike",
+      "world": 4,
+      "subtitle": "Watch the pulse rather than relying on sound.",
+      "par": 57,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 180,
+          "speed": 1.15,
+          "phase": 5.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "pulse",
+          "gap": 195,
+          "speed": 0.7,
+          "phase": 1.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.3,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 170,
+          "speed": 1.05,
+          "phase": 0.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "ring",
+          "gap": 155,
+          "speed": 1.2,
+          "phase": 2.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Golden Measure",
+      "world": 4,
+      "subtitle": "Two long lifts share a slow pulse pattern.",
+      "par": 59,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 0.75,
+          "phase": 0.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 1.25,
+          "phase": 2.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 0.8,
+          "phase": 5.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.42
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 1.2,
+          "phase": 1.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.1,
+          "phase": 4.3,
+          "offset": 2,
+          "color": 1,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Pressure Valve",
+      "world": 4,
+      "subtitle": "Quick movement between patient pulse waits.",
+      "par": 61,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.3,
+          "phase": 1.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 1.0,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.25,
+          "phase": 5.7,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 42
+        },
+        {
+          "kind": "pulse",
+          "gap": 195,
+          "speed": 0.85,
+          "phase": 2.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "switch",
+          "gap": 160,
+          "speed": 1.15,
+          "phase": 4.6,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Pulse Foundry Finale",
+      "world": 4,
+      "subtitle": "Six mechanisms share one readable rhythm.",
+      "par": 65,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 0.95,
+          "phase": 2.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "switch",
+          "gap": 185,
+          "speed": 1.05,
+          "phase": 4.8,
+          "offset": 1,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 1.3,
+          "phase": 0.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 42
+        },
+        {
+          "kind": "pulse",
+          "gap": 180,
+          "speed": 1.1,
+          "phase": 3.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.2,
+          "phase": 5.5,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 170,
+          "speed": 1.0,
+          "phase": 1.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.42
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "check": "pass",
+  "test": "12 suites passed",
+  "quality": "pass",
+  "signed_release_export": "pass",
+  "debug_export": "pass",
+  "windows_export": "pass",
+  "independent_machine": false,
+  "scope": "Extracted source on the same development host with existing Godot/JDK/SDK; fresh Python environments",
+  "matching_production_build_test_files": 117,
+  "coverage": {
+    "unique_source_lines": {
+      "covered": 2017,
+      "total": 2130,
+      "rate": 0.9469483568075118
+    },
+    "collector_summary": {
+      "line_rate": 0.9290030211480362,
+      "branch_rate": 0.9084132055378061,
+      "covered_lines": 2460,
+      "total_lines": 2648,
+      "covered_branches": 853,
+      "total_branches": 939
+    }
+  }
+}

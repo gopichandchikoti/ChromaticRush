@@ -1,0 +1,648 @@
+{
+  "id": 9,
+  "name": "Velvet Paradox",
+  "theme": "Deep iris folds; slow openings conceal fast decisions.",
+  "accent": "#C7A1EF",
+  "levels": [
+    {
+      "id": 81,
+      "name": "Soft Contradiction",
+      "world": 9,
+      "subtitle": "A gentle inverse opening leads to quick pulses.",
+      "par": 62,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 195,
+          "speed": 0.9,
+          "phase": 0.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 1.4,
+          "phase": 2.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.32
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.45,
+          "phase": 4.9,
+          "offset": 2,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 155,
+          "speed": 1.3,
+          "phase": 1.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 180,
+          "speed": 1.55,
+          "phase": 3.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Second Thought",
+      "world": 9,
+      "subtitle": "Switch twice before committing to the relay.",
+      "par": 64,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 1.5,
+          "phase": 0.9,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 185,
+          "speed": 1.15,
+          "phase": 3.3,
+          "offset": 3,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 1.4,
+          "phase": 5.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "reverse",
+          "gap": 170,
+          "speed": 1.35,
+          "phase": 1.8,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 160,
+          "speed": 1.3,
+          "phase": 4.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Velvet Descent",
+      "world": 9,
+      "subtitle": "Two inverted fields divide the long route.",
+      "par": 66,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 150,
+          "speed": 1.5,
+          "phase": 1.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 180,
+          "speed": 1.1,
+          "phase": 4.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 140,
+          "speed": 1.7,
+          "phase": 0.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "reverse",
+          "gap": 195,
+          "speed": 1.0,
+          "phase": 2.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 165,
+          "speed": 1.65,
+          "phase": 5.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "The Other Beat",
+      "world": 9,
+      "subtitle": "Offset pulses alternate with broader relay windows.",
+      "par": 67,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 1.45,
+          "phase": 2.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "chain",
+          "gap": 170,
+          "speed": 1.2,
+          "phase": 4.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 1.1,
+          "phase": 1.1,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.32
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.55,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 160,
+          "speed": 1.4,
+          "phase": 5.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Folded Distance",
+      "world": 9,
+      "subtitle": "Close and distant contacts require fresh lift timing.",
+      "par": 69,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 135,
+          "speed": 1.45,
+          "phase": 3.4,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 190,
+          "speed": 1.15,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.75,
+          "phase": 1.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "slide",
+          "gap": 195,
+          "speed": 1.3,
+          "phase": 4.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 1.4,
+          "phase": 0.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 1.65,
+          "phase": 2.8,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Color Of Silence",
+      "world": 9,
+      "subtitle": "A switch at each end surrounds a timing study.",
+      "par": 70,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.4,
+          "phase": 4.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 150,
+          "speed": 1.5,
+          "phase": 0.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 185,
+          "speed": 1.45,
+          "phase": 3.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 1.5,
+          "phase": 5.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.55,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 180,
+          "speed": 1.25,
+          "phase": 3.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Paradox Pocket",
+      "world": 9,
+      "subtitle": "Short reversed gates punctuate longer relay spans.",
+      "par": 72,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 140,
+          "speed": 1.6,
+          "phase": 5.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 185,
+          "speed": 1.15,
+          "phase": 1.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 155,
+          "speed": 1.5,
+          "phase": 3.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 1.35,
+          "phase": 0.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "chain",
+          "gap": 165,
+          "speed": 1.4,
+          "phase": 2.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 1.35,
+          "phase": 5.0,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Twice Reflected",
+      "world": 9,
+      "subtitle": "Repeat the mechanic, never the period or reach.",
+      "par": 73,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.55,
+          "phase": 0.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 1.15,
+          "phase": 3.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "chain",
+          "gap": 175,
+          "speed": 1.25,
+          "phase": 5.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 1.55,
+          "phase": 1.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "reverse",
+          "gap": 165,
+          "speed": 1.45,
+          "phase": 4.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 185,
+          "speed": 1.35,
+          "phase": 0.9,
+          "offset": 1,
+          "color": 2,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Unwritten Horizon",
+      "world": 9,
+      "subtitle": "Three color identities span seven different contacts.",
+      "par": 75,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 160,
+          "speed": 1.55,
+          "phase": 1.3,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 1.4,
+          "phase": 3.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 1.6,
+          "phase": 5.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.32
+        },
+        {
+          "kind": "chain",
+          "gap": 180,
+          "speed": 1.2,
+          "phase": 2.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 150,
+          "speed": 1.6,
+          "phase": 4.7,
+          "offset": 0,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 175,
+          "speed": 1.4,
+          "phase": 0.9,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 165,
+          "speed": 1.75,
+          "phase": 3.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Velvet Paradox Finale",
+      "world": 9,
+      "subtitle": "Keep reading through the longest alternating phrase.",
+      "par": 79,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 185,
+          "speed": 1.25,
+          "phase": 2.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.65,
+          "phase": 4.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 165,
+          "speed": 1.5,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 195,
+          "speed": 1.15,
+          "phase": 3.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.75,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "reverse",
+          "gap": 175,
+          "speed": 1.5,
+          "phase": 1.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.6,
+          "phase": 4.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    }
+  ]
+}

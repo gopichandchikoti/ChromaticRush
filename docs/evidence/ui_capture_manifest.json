@@ -1,0 +1,222 @@
+{
+	"captures": [
+		{
+			"image_size": [
+				480,
+				900
+			],
+			"path": "res://docs/evidence/ui-home-480x900.png",
+			"requested_window": [
+				480,
+				900
+			],
+			"view": "home"
+		},
+		{
+			"image_size": [
+				480,
+				900
+			],
+			"path": "res://docs/evidence/ui-worlds-480x900.png",
+			"requested_window": [
+				480,
+				900
+			],
+			"view": "worlds"
+		},
+		{
+			"image_size": [
+				480,
+				900
+			],
+			"path": "res://docs/evidence/ui-settings-480x900.png",
+			"requested_window": [
+				480,
+				900
+			],
+			"view": "settings"
+		},
+		{
+			"image_size": [
+				480,
+				900
+			],
+			"path": "res://docs/evidence/ui-play-480x900.png",
+			"requested_window": [
+				480,
+				900
+			],
+			"view": "play"
+		},
+		{
+			"image_size": [
+				480,
+				900
+			],
+			"path": "res://docs/evidence/ui-result-480x900.png",
+			"requested_window": [
+				480,
+				900
+			],
+			"view": "result"
+		},
+		{
+			"image_size": [
+				480,
+				900
+			],
+			"path": "res://docs/evidence/ui-reverse-480x900.png",
+			"requested_window": [
+				480,
+				900
+			],
+			"view": "reverse"
+		},
+		{
+			"image_size": [
+				320,
+				600
+			],
+			"path": "res://docs/evidence/ui-home-320x600.png",
+			"requested_window": [
+				320,
+				600
+			],
+			"view": "home"
+		},
+		{
+			"image_size": [
+				320,
+				600
+			],
+			"path": "res://docs/evidence/ui-worlds-320x600.png",
+			"requested_window": [
+				320,
+				600
+			],
+			"view": "worlds"
+		},
+		{
+			"image_size": [
+				320,
+				600
+			],
+			"path": "res://docs/evidence/ui-settings-320x600.png",
+			"requested_window": [
+				320,
+				600
+			],
+			"view": "settings"
+		},
+		{
+			"image_size": [
+				320,
+				600
+			],
+			"path": "res://docs/evidence/ui-play-320x600.png",
+			"requested_window": [
+				320,
+				600
+			],
+			"view": "play"
+		},
+		{
+			"image_size": [
+				320,
+				600
+			],
+			"path": "res://docs/evidence/ui-result-320x600.png",
+			"requested_window": [
+				320,
+				600
+			],
+			"view": "result"
+		},
+		{
+			"image_size": [
+				320,
+				600
+			],
+			"path": "res://docs/evidence/ui-reverse-320x600.png",
+			"requested_window": [
+				320,
+				600
+			],
+			"view": "reverse"
+		},
+		{
+			"image_size": [
+				900,
+				480
+			],
+			"path": "res://docs/evidence/ui-home-900x480.png",
+			"requested_window": [
+				900,
+				480
+			],
+			"view": "home"
+		},
+		{
+			"image_size": [
+				900,
+				480
+			],
+			"path": "res://docs/evidence/ui-worlds-900x480.png",
+			"requested_window": [
+				900,
+				480
+			],
+			"view": "worlds"
+		},
+		{
+			"image_size": [
+				900,
+				480
+			],
+			"path": "res://docs/evidence/ui-settings-900x480.png",
+			"requested_window": [
+				900,
+				480
+			],
+			"view": "settings"
+		},
+		{
+			"image_size": [
+				900,
+				480
+			],
+			"path": "res://docs/evidence/ui-play-900x480.png",
+			"requested_window": [
+				900,
+				480
+			],
+			"view": "play"
+		},
+		{
+			"image_size": [
+				900,
+				480
+			],
+			"path": "res://docs/evidence/ui-result-900x480.png",
+			"requested_window": [
+				900,
+				480
+			],
+			"view": "result"
+		},
+		{
+			"image_size": [
+				900,
+				480
+			],
+			"path": "res://docs/evidence/ui-reverse-900x480.png",
+			"requested_window": [
+				900,
+				480
+			],
+			"view": "reverse"
+		}
+	],
+	"progress": "Level-one results were earned by timestamped input replay, not seeded records",
+	"source": "Actual native viewport captures from isolated automated UI session"
+}

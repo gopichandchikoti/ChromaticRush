@@ -1,0 +1,524 @@
+{
+  "id": 5,
+  "name": "Glass Relay",
+  "theme": "Coral split prisms; chains require two matching contacts.",
+  "accent": "#FF8278",
+  "levels": [
+    {
+      "id": 41,
+      "name": "Two Clear Notes",
+      "world": 5,
+      "subtitle": "Keep lifting through both contacts of a chain.",
+      "par": 50,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 0.6,
+          "phase": 0.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 1.0,
+          "phase": 2.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.05,
+          "phase": 4.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Relay Baton",
+      "world": 5,
+      "subtitle": "A single chain follows a gentle color switch.",
+      "par": 53,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 150,
+          "speed": 0.95,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 170,
+          "speed": 0.65,
+          "phase": 3.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.15,
+          "phase": 5.4,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "ring",
+          "gap": 180,
+          "speed": 1.05,
+          "phase": 1.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Glass Stair",
+      "world": 5,
+      "subtitle": "Short chain entries ask for a sustained lift.",
+      "par": 55,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 135,
+          "speed": 0.75,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 175,
+          "speed": 1.2,
+          "phase": 3.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 0.7,
+          "phase": 0.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 1.15,
+          "phase": 2.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Passing Light",
+      "world": 5,
+      "subtitle": "Observe a pulse before the relay contact.",
+      "par": 56,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 160,
+          "speed": 0.85,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "chain",
+          "gap": 180,
+          "speed": 0.65,
+          "phase": 4.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.1,
+          "phase": 1.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 170,
+          "speed": 1.2,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Double Refraction",
+      "world": 5,
+      "subtitle": "Two chains use different rotation periods.",
+      "par": 59,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 155,
+          "speed": 0.8,
+          "phase": 3.3,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 185,
+          "speed": 1.15,
+          "phase": 5.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 140,
+          "speed": 0.9,
+          "phase": 1.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 160,
+          "speed": 1.25,
+          "phase": 4.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Handoff Garden",
+      "world": 5,
+      "subtitle": "The next chain reads your changed color.",
+      "par": 60,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.05,
+          "phase": 4.2,
+          "offset": 2,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 0.85,
+          "phase": 0.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 0.95,
+          "phase": 2.9,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.36
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.2,
+          "phase": 5.1,
+          "offset": 3,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 170,
+          "speed": 0.75,
+          "phase": 1.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Fragile Rhythm",
+      "world": 5,
+      "subtitle": "Pulse and chain windows reward waiting.",
+      "par": 61,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 165,
+          "speed": 0.9,
+          "phase": 5.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 0.8,
+          "phase": 1.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 1.3,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 42
+        },
+        {
+          "kind": "chain",
+          "gap": 155,
+          "speed": 0.8,
+          "phase": 0.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 1.0,
+          "phase": 2.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Relay Fork",
+      "world": 5,
+      "subtitle": "Three chain distances break a repeated cadence.",
+      "par": 63,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 140,
+          "speed": 1.0,
+          "phase": 0.5,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 180,
+          "speed": 1.25,
+          "phase": 2.9,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 175,
+          "speed": 0.7,
+          "phase": 5.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 1.3,
+          "phase": 1.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 160,
+          "speed": 0.9,
+          "phase": 4.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Clear Span",
+      "world": 5,
+      "subtitle": "A long opening leads to compact relay work.",
+      "par": 64,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 1.1,
+          "phase": 1.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 0.95,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.2,
+          "phase": 5.7,
+          "offset": 3,
+          "color": 2,
+          "checkpoint": true
+        },
+        {
+          "kind": "chain",
+          "gap": 155,
+          "speed": 0.85,
+          "phase": 2.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 0.9,
+          "phase": 4.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Glass Relay Finale",
+      "world": 5,
+      "subtitle": "Six contacts combine color changes and chains.",
+      "par": 68,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 160,
+          "speed": 0.9,
+          "phase": 2.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 185,
+          "speed": 1.1,
+          "phase": 4.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 1.05,
+          "phase": 0.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.36
+        },
+        {
+          "kind": "chain",
+          "gap": 175,
+          "speed": 0.8,
+          "phase": 3.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.3,
+          "phase": 5.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.0,
+          "phase": 1.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    }
+  ]
+}

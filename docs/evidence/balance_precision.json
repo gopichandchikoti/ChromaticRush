@@ -1,0 +1,73 @@
+{
+	"date": "2026-11-05",
+	"levels": [
+		{
+			"id": 97,
+			"routes": {
+				"100": {
+					"complete": false,
+					"kind": "pendulum",
+					"seconds": 4.66666666666669,
+					"stage": 4,
+					"stars": 3
+				},
+				"25": {
+					"complete": true,
+					"kind": "",
+					"seconds": 12.9916666666666,
+					"stage": -1,
+					"stars": 3
+				},
+				"50": {
+					"complete": true,
+					"kind": "",
+					"seconds": 12.9916666666666,
+					"stage": -1,
+					"stars": 3
+				},
+				"75": {
+					"complete": true,
+					"kind": "",
+					"seconds": 13.0249999999999,
+					"stage": -1,
+					"stars": 3
+				}
+			}
+		},
+		{
+			"id": 100,
+			"routes": {
+				"100": {
+					"complete": false,
+					"kind": "pendulum",
+					"seconds": 4.83333333333336,
+					"stage": 5,
+					"stars": 3
+				},
+				"25": {
+					"complete": true,
+					"kind": "",
+					"seconds": 9.63333333333343,
+					"stage": -1,
+					"stars": 3
+				},
+				"50": {
+					"complete": true,
+					"kind": "",
+					"seconds": 9.66666666666676,
+					"stage": -1,
+					"stars": 3
+				},
+				"75": {
+					"complete": true,
+					"kind": "",
+					"seconds": 9.70000000000009,
+					"stage": -1,
+					"stars": 3
+				}
+			}
+		}
+	],
+	"method": "Production RunState centered per-stage launch search at signed tolerance and quarter steps",
+	"search_candidates": 3878
+}

@@ -1,0 +1,735 @@
+{
+  "tool": "gd-tools-cli==0.10.0",
+  "source_scope": "Every src/**/*.gd file; no production exclusions",
+  "workspace": ".tools/quality/coverage-20261105T071848251134",
+  "summary": {
+    "line_rate": 0.9290030211480362,
+    "branch_rate": 0.9084132055378061,
+    "covered_lines": 2460,
+    "total_lines": 2648,
+    "covered_branches": 853,
+    "total_branches": 939
+  },
+  "source_sha256": {
+    "res://src/app.gd": "sha256:236d3685e12c2d9f8b159e0aead6d514a1bf799df08e5e15b3325928ff750aa2",
+    "res://src/domain/gate_rules.gd": "sha256:f5d9b1adf9d5dee831d5770b9f5a5b119036822aa6b62aab66034e4508baf9aa",
+    "res://src/domain/level_registry.gd": "sha256:c67bda7d6d77c0aeede7eb08c8d39de2018fae99d6d83554f264c82e41a2739f",
+    "res://src/domain/run_state.gd": "sha256:1aec8c64ba38756227b3537ff0d5dd13db90ab02d0fb8872a9a6af28e81b594f",
+    "res://src/services/accessibility.gd": "sha256:b082537d230d028dfdf44d0fc50444095696d67b55ceeb669b385bd71863038d",
+    "res://src/services/save_store.gd": "sha256:44ceda7351674edf86c74e89a17c33e89b32785f0c54b83be9d430e5ff5ede51",
+    "res://src/services/sound_bank.gd": "sha256:d3e01a24d8692c7276b30fa20f80947eb0ecdf62d033a6c4ea75885ca9995949",
+    "res://src/ui/accessible_hud.gd": "sha256:5b444d3ee6bcb93ce60487a7fe80987d49a0717a38e2d54e8d53f07c5f5fcf71",
+    "res://src/ui/backdrop.gd": "sha256:bd5e94d3f56a39da9dbcab17d4645b43e53b1291f0fd10f8c39e92f20a1b468f",
+    "res://src/ui/effects.gd": "sha256:b594a8f194483bf9d893a0c892996d22c69cb4d19a8beeaa60180a461d425b82",
+    "res://src/ui/game_canvas.gd": "sha256:15f00e3d521e7525dc0afefdc2b828e6e6921210fba7c53f77e5091f4a8f7b65",
+    "res://src/ui/gate_painter.gd": "sha256:b1539fc9453ae31398a776691d36153ec64dabf325f6dd77458102eb1bc87aa3",
+    "res://src/ui/glyph.gd": "sha256:80d219bbea02679277a9ed8b47aa96b3ba33e90a30e2959df64daf9fd3bb9851",
+    "res://src/ui/hud_view.gd": "sha256:6d925f765aecbecd6d7362ce248db2417e770bb4a3847e9bcd024a90b6e46e0a",
+    "res://src/ui/menu_screens.gd": "sha256:4969007caec2f2b8b911a078449a3a3a87ac126bff64e7ea8f608f209bad3c31",
+    "res://src/ui/reader_view.gd": "sha256:98c18198140250f882667b1aff74812429272009f8455a31f3e24299694cc88d",
+    "res://src/ui/result_screens.gd": "sha256:544f913961eb1da616a65573bc312d773a0e12f6bf965c7ef73f7c7e72957abd",
+    "res://src/ui/run_screens.gd": "sha256:3773d19a5a565f4f65b253dd51fb38fc149291dad16888800661ea29e5f2a4bc",
+    "res://src/ui/screen_base.gd": "sha256:ef8ba0ac49a5065e12e5e4fc1382425493b71dcade96e86c6ef21d8565e4c3f5",
+    "res://src/ui/settings_screens.gd": "sha256:902382a2b76c71764d72b75bc352e571416e3544b9a0a4118fdf463ce293be3f",
+    "res://src/ui/skin.gd": "sha256:2ad16eaadde49662ddf26b91550b6dfcace369edda5a37f8b9acfbb0e0d641bf"
+  },
+  "unique_planned_source_lines": {
+    "covered": 2017,
+    "total": 2130,
+    "rate": 0.9469483568075118
+  },
+  "measurement_notes": "gd-tools line_rate counts statement/branch tracking points; unique source lines are also gated",
+  "suite_policy": "Normal test.ps1 runs the launch search; coverage replays every successful input schedule",
+  "files": [
+    {
+      "file_id": 0,
+      "path": "res://src/app.gd",
+      "line_rate": 0.8863049095607235,
+      "branch_rate": 0.8957055214723927,
+      "covered_lines": 343,
+      "total_lines": 387,
+      "covered_branches": 146,
+      "total_branches": 163,
+      "uncovered_lines": [
+        271,
+        107,
+        107,
+        107,
+        119,
+        200,
+        219,
+        293,
+        135,
+        156,
+        157,
+        249,
+        273,
+        113,
+        113,
+        130,
+        130,
+        272,
+        313,
+        62,
+        94,
+        102,
+        131,
+        144,
+        220,
+        241,
+        263,
+        264,
+        266,
+        267,
+        314,
+        331,
+        262,
+        265,
+        330,
+        382,
+        383,
+        384,
+        385,
+        386,
+        391,
+        392,
+        393,
+        394
+      ],
+      "uncovered_branches": [
+        271,
+        107,
+        107,
+        107,
+        119,
+        200,
+        219,
+        293,
+        113,
+        113,
+        130,
+        130,
+        272,
+        313,
+        262,
+        265,
+        330
+      ],
+      "uncovered_branch_types": [
+        "or_short",
+        "and_short",
+        "and_short",
+        "and_short",
+        "ternary_true",
+        "and_short",
+        "or_short",
+        "ternary_false",
+        "and_right",
+        "and_right",
+        "and_right",
+        "and_right",
+        "if_false",
+        "or_short",
+        "match_case",
+        "match_case",
+        "elif_true"
+      ]
+    },
+    {
+      "file_id": 1,
+      "path": "res://src/domain/gate_rules.gd",
+      "line_rate": 0.96875,
+      "branch_rate": 1.0,
+      "covered_lines": 31,
+      "total_lines": 32,
+      "covered_branches": 13,
+      "total_branches": 13,
+      "uncovered_lines": [
+        54
+      ],
+      "uncovered_branches": [],
+      "uncovered_branch_types": []
+    },
+    {
+      "file_id": 2,
+      "path": "res://src/domain/level_registry.gd",
+      "line_rate": 0.6666666666666666,
+      "branch_rate": 0.8108108108108109,
+      "covered_lines": 44,
+      "total_lines": 66,
+      "covered_branches": 30,
+      "total_branches": 37,
+      "uncovered_lines": [
+        20,
+        60,
+        63,
+        65,
+        14,
+        17,
+        18,
+        21,
+        22,
+        31,
+        41,
+        47,
+        51,
+        56,
+        61,
+        62,
+        64,
+        66,
+        32,
+        42,
+        57,
+        58
+      ],
+      "uncovered_branches": [
+        20,
+        60,
+        63,
+        65,
+        31,
+        41,
+        56
+      ],
+      "uncovered_branch_types": [
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short"
+      ]
+    },
+    {
+      "file_id": 3,
+      "path": "res://src/domain/run_state.gd",
+      "line_rate": 0.9893617021276596,
+      "branch_rate": 0.96875,
+      "covered_lines": 93,
+      "total_lines": 94,
+      "covered_branches": 31,
+      "total_branches": 32,
+      "uncovered_lines": [
+        82
+      ],
+      "uncovered_branches": [
+        82
+      ],
+      "uncovered_branch_types": [
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 4,
+      "path": "res://src/services/accessibility.gd",
+      "line_rate": 0.9571428571428572,
+      "branch_rate": 0.925,
+      "covered_lines": 67,
+      "total_lines": 70,
+      "covered_branches": 37,
+      "total_branches": 40,
+      "uncovered_lines": [
+        71,
+        50,
+        83
+      ],
+      "uncovered_branches": [
+        71,
+        50,
+        83
+      ],
+      "uncovered_branch_types": [
+        "and_short",
+        "or_short",
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 5,
+      "path": "res://src/services/save_store.gd",
+      "line_rate": 0.9140127388535032,
+      "branch_rate": 0.9171597633136095,
+      "covered_lines": 287,
+      "total_lines": 314,
+      "covered_branches": 155,
+      "total_branches": 169,
+      "uncovered_lines": [
+        252,
+        270,
+        270,
+        53,
+        112,
+        258,
+        267,
+        278,
+        294,
+        298,
+        302,
+        57,
+        113,
+        187,
+        213,
+        268,
+        279,
+        281,
+        286,
+        288,
+        290,
+        290,
+        295,
+        299,
+        303,
+        304,
+        335
+      ],
+      "uncovered_branches": [
+        252,
+        270,
+        270,
+        53,
+        112,
+        258,
+        267,
+        278,
+        294,
+        298,
+        302,
+        290,
+        290,
+        304
+      ],
+      "uncovered_branch_types": [
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "or_short",
+        "and_right",
+        "and_short",
+        "and_short",
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 6,
+      "path": "res://src/services/sound_bank.gd",
+      "line_rate": 0.9649122807017544,
+      "branch_rate": 0.9090909090909091,
+      "covered_lines": 110,
+      "total_lines": 114,
+      "covered_branches": 30,
+      "total_branches": 33,
+      "uncovered_lines": [
+        75,
+        70,
+        77,
+        78
+      ],
+      "uncovered_branches": [
+        75,
+        70,
+        77
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_true",
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 7,
+      "path": "res://src/ui/accessible_hud.gd",
+      "line_rate": 0.8591549295774648,
+      "branch_rate": 0.75,
+      "covered_lines": 61,
+      "total_lines": 71,
+      "covered_branches": 15,
+      "total_branches": 20,
+      "uncovered_lines": [
+        87,
+        87,
+        16,
+        18,
+        20,
+        21,
+        86,
+        74,
+        84,
+        87
+      ],
+      "uncovered_branches": [
+        87,
+        87,
+        16,
+        18,
+        20
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_false",
+        "and_short",
+        "and_short",
+        "or_short"
+      ]
+    },
+    {
+      "file_id": 8,
+      "path": "res://src/ui/backdrop.gd",
+      "line_rate": 0.9931506849315068,
+      "branch_rate": 1.0,
+      "covered_lines": 145,
+      "total_lines": 146,
+      "covered_branches": 43,
+      "total_branches": 43,
+      "uncovered_lines": [
+        57
+      ],
+      "uncovered_branches": [],
+      "uncovered_branch_types": []
+    },
+    {
+      "file_id": 9,
+      "path": "res://src/ui/effects.gd",
+      "line_rate": 0.9411764705882353,
+      "branch_rate": 0.9836065573770492,
+      "covered_lines": 128,
+      "total_lines": 136,
+      "covered_branches": 60,
+      "total_branches": 61,
+      "uncovered_lines": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        180,
+        179,
+        181
+      ],
+      "uncovered_branches": [
+        179
+      ],
+      "uncovered_branch_types": [
+        "loop_body"
+      ]
+    },
+    {
+      "file_id": 10,
+      "path": "res://src/ui/game_canvas.gd",
+      "line_rate": 0.9444444444444444,
+      "branch_rate": 0.8867924528301887,
+      "covered_lines": 187,
+      "total_lines": 198,
+      "covered_branches": 47,
+      "total_branches": 53,
+      "uncovered_lines": [
+        243,
+        243,
+        94,
+        239,
+        240,
+        242,
+        243,
+        261,
+        69,
+        244,
+        255
+      ],
+      "uncovered_branches": [
+        243,
+        243,
+        94,
+        239,
+        240,
+        261
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_false",
+        "ternary_false",
+        "ternary_false",
+        "ternary_false",
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 11,
+      "path": "res://src/ui/gate_painter.gd",
+      "line_rate": 0.9487179487179487,
+      "branch_rate": 0.8979591836734694,
+      "covered_lines": 148,
+      "total_lines": 156,
+      "covered_branches": 44,
+      "total_branches": 49,
+      "uncovered_lines": [
+        112,
+        152,
+        155,
+        139,
+        153,
+        151,
+        154,
+        150
+      ],
+      "uncovered_branches": [
+        112,
+        155,
+        139,
+        151,
+        150
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_false",
+        "and_short",
+        "loop_body",
+        "if_false"
+      ]
+    },
+    {
+      "file_id": 12,
+      "path": "res://src/ui/glyph.gd",
+      "line_rate": 0.918918918918919,
+      "branch_rate": 0.8695652173913043,
+      "covered_lines": 68,
+      "total_lines": 74,
+      "covered_branches": 20,
+      "total_branches": 23,
+      "uncovered_lines": [
+        61,
+        48,
+        69,
+        70,
+        47,
+        68
+      ],
+      "uncovered_branches": [
+        61,
+        47,
+        68
+      ],
+      "uncovered_branch_types": [
+        "and_short",
+        "match_case",
+        "if_false"
+      ]
+    },
+    {
+      "file_id": 13,
+      "path": "res://src/ui/hud_view.gd",
+      "line_rate": 0.9743589743589743,
+      "branch_rate": 1.0,
+      "covered_lines": 38,
+      "total_lines": 39,
+      "covered_branches": 9,
+      "total_branches": 9,
+      "uncovered_lines": [
+        29
+      ],
+      "uncovered_branches": [],
+      "uncovered_branch_types": []
+    },
+    {
+      "file_id": 14,
+      "path": "res://src/ui/menu_screens.gd",
+      "line_rate": 0.8967136150234741,
+      "branch_rate": 0.8688524590163934,
+      "covered_lines": 191,
+      "total_lines": 213,
+      "covered_branches": 53,
+      "total_branches": 61,
+      "uncovered_lines": [
+        170,
+        170,
+        226,
+        226,
+        169,
+        170,
+        171,
+        172,
+        168,
+        225,
+        226,
+        277,
+        277,
+        227,
+        228,
+        229,
+        30,
+        60,
+        223,
+        224,
+        230,
+        277
+      ],
+      "uncovered_branches": [
+        170,
+        170,
+        226,
+        226,
+        168,
+        277,
+        277,
+        224
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_false",
+        "ternary_true",
+        "ternary_false",
+        "loop_body",
+        "ternary_true",
+        "ternary_false",
+        "loop_body"
+      ]
+    },
+    {
+      "file_id": 15,
+      "path": "res://src/ui/reader_view.gd",
+      "line_rate": 0.976,
+      "branch_rate": 0.9333333333333333,
+      "covered_lines": 122,
+      "total_lines": 125,
+      "covered_branches": 42,
+      "total_branches": 45,
+      "uncovered_lines": [
+        49,
+        76,
+        113
+      ],
+      "uncovered_branches": [
+        49,
+        76,
+        113
+      ],
+      "uncovered_branch_types": [
+        "and_short",
+        "or_short",
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 16,
+      "path": "res://src/ui/result_screens.gd",
+      "line_rate": 0.9626865671641791,
+      "branch_rate": 0.8666666666666667,
+      "covered_lines": 129,
+      "total_lines": 134,
+      "covered_branches": 26,
+      "total_branches": 30,
+      "uncovered_lines": [
+        31,
+        109,
+        35,
+        64,
+        74
+      ],
+      "uncovered_branches": [
+        31,
+        109,
+        35,
+        64
+      ],
+      "uncovered_branch_types": [
+        "ternary_false",
+        "ternary_true",
+        "and_short",
+        "and_short"
+      ]
+    },
+    {
+      "file_id": 17,
+      "path": "res://src/ui/run_screens.gd",
+      "line_rate": 0.9743589743589743,
+      "branch_rate": 1.0,
+      "covered_lines": 38,
+      "total_lines": 39,
+      "covered_branches": 4,
+      "total_branches": 4,
+      "uncovered_lines": [
+        61
+      ],
+      "uncovered_branches": [],
+      "uncovered_branch_types": []
+    },
+    {
+      "file_id": 18,
+      "path": "res://src/ui/screen_base.gd",
+      "line_rate": 1.0,
+      "branch_rate": 1.0,
+      "covered_lines": 40,
+      "total_lines": 40,
+      "covered_branches": 5,
+      "total_branches": 5,
+      "uncovered_lines": [],
+      "uncovered_branches": [],
+      "uncovered_branch_types": []
+    },
+    {
+      "file_id": 19,
+      "path": "res://src/ui/settings_screens.gd",
+      "line_rate": 0.9423076923076923,
+      "branch_rate": 0.6666666666666666,
+      "covered_lines": 49,
+      "total_lines": 52,
+      "covered_branches": 6,
+      "total_branches": 9,
+      "uncovered_lines": [
+        53,
+        52,
+        57
+      ],
+      "uncovered_branches": [
+        53,
+        52,
+        57
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_true",
+        "ternary_true"
+      ]
+    },
+    {
+      "file_id": 20,
+      "path": "res://src/ui/skin.gd",
+      "line_rate": 0.9527027027027027,
+      "branch_rate": 0.925,
+      "covered_lines": 141,
+      "total_lines": 148,
+      "covered_branches": 37,
+      "total_branches": 40,
+      "uncovered_lines": [
+        189,
+        189,
+        182,
+        183,
+        188,
+        187,
+        189
+      ],
+      "uncovered_branches": [
+        189,
+        189,
+        182
+      ],
+      "uncovered_branch_types": [
+        "ternary_true",
+        "ternary_false",
+        "or_short"
+      ]
+    }
+  ],
+  "metrics_not_provided": [
+    "functions",
+    "statements"
+  ],
+  "threshold": 90.0
+}

@@ -1,0 +1,522 @@
+{
+  "id": 3,
+  "name": "Prism Orchard",
+  "theme": "Iris lantern gardens; switches change the orb after contact.",
+  "accent": "#B69AFF",
+  "levels": [
+    {
+      "id": 21,
+      "name": "A New Hue",
+      "world": 3,
+      "subtitle": "Match first; the switch changes your next color.",
+      "par": 44,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 150,
+          "speed": 0.7,
+          "phase": 0.0,
+          "offset": 0,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 0.85,
+          "phase": 2.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 0.9,
+          "phase": 4.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Petal Exchange",
+      "world": 3,
+      "subtitle": "Two switches teach consecutive color changes.",
+      "par": 48,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 0.95,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 170,
+          "speed": 0.8,
+          "phase": 3.0,
+          "offset": 3,
+          "color": 2,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 0.85,
+          "phase": 5.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 165,
+          "speed": 0.9,
+          "phase": 1.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Lantern Walk",
+      "world": 3,
+      "subtitle": "A higher switch connects two moving bands.",
+      "par": 48,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 150,
+          "speed": 1.0,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 195,
+          "speed": 0.75,
+          "phase": 4.1,
+          "offset": 0,
+          "color": 3,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 160,
+          "speed": 1.1,
+          "phase": 0.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 1.0,
+          "phase": 2.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Split Blossom",
+      "world": 3,
+      "subtitle": "Learn a new hue before a slow pendulum.",
+      "par": 50,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 0.9,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 180,
+          "speed": 0.75,
+          "phase": 4.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 1.15,
+          "phase": 1.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 170,
+          "speed": 0.95,
+          "phase": 3.6,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Violet Footbridge",
+      "world": 3,
+      "subtitle": "Long reach, color change, then compact gates.",
+      "par": 52,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 190,
+          "speed": 0.85,
+          "phase": 3.4,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.0,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 3,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.15,
+          "phase": 1.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 1.05,
+          "phase": 4.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Afterimage",
+      "world": 3,
+      "subtitle": "Remember the changed number, not the old hue.",
+      "par": 54,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 160,
+          "speed": 1.05,
+          "phase": 4.4,
+          "offset": 2,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 185,
+          "speed": 0.9,
+          "phase": 0.5,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 150,
+          "speed": 0.95,
+          "phase": 2.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 175,
+          "speed": 1.0,
+          "phase": 5.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 140,
+          "speed": 1.2,
+          "phase": 1.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Orchard Loop",
+      "world": 3,
+      "subtitle": "Switches bookend a swinging center section.",
+      "par": 55,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 0.85,
+          "phase": 5.2,
+          "offset": 1,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 1.15,
+          "phase": 1.1,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 190,
+          "speed": 0.8,
+          "phase": 3.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 160,
+          "speed": 1.2,
+          "phase": 0.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 150,
+          "speed": 1.05,
+          "phase": 2.6,
+          "offset": 1,
+          "color": 2,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Lantern Rain",
+      "world": 3,
+      "subtitle": "A slow middle switch gives time to plan.",
+      "par": 54,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.25,
+          "phase": 0.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 180,
+          "speed": 1.1,
+          "phase": 2.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 195,
+          "speed": 0.7,
+          "phase": 5.0,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.15,
+          "phase": 1.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 170,
+          "speed": 1.05,
+          "phase": 4.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Fourfold Bloom",
+      "world": 3,
+      "subtitle": "Visit all four orb identities in order.",
+      "par": 58,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 1.0,
+          "phase": 1.3,
+          "offset": 0,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 0.95,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.2,
+          "phase": 5.7,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "switch",
+          "gap": 185,
+          "speed": 0.9,
+          "phase": 2.0,
+          "offset": 1,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 160,
+          "speed": 1.15,
+          "phase": 4.5,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Prism Orchard Finale",
+      "world": 3,
+      "subtitle": "Six stages test reading after every switch.",
+      "par": 62,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 165,
+          "speed": 1.15,
+          "phase": 2.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "switch",
+          "gap": 190,
+          "speed": 0.9,
+          "phase": 4.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.25,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.0,
+          "phase": 3.2,
+          "offset": 3,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 155,
+          "speed": 1.2,
+          "phase": 5.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 180,
+          "speed": 1.05,
+          "phase": 1.7,
+          "offset": 0,
+          "color": 1,
+          "checkpoint": false
+        }
+      ]
+    }
+  ]
+}

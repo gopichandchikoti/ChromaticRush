@@ -1,0 +1,508 @@
+{
+  "id": 2,
+  "name": "Tidal Circuit",
+  "theme": "Swaying teal machinery; pendulums introduce easing.",
+  "accent": "#77D4EA",
+  "levels": [
+    {
+      "id": 11,
+      "name": "The First Sway",
+      "world": 2,
+      "subtitle": "Wait for the pendulum to return to center.",
+      "par": 40,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 0.65,
+          "phase": 0.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 160,
+          "speed": 0.85,
+          "phase": 2.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 0.75,
+          "phase": 4.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ebb And Lift",
+      "world": 2,
+      "subtitle": "Short and long reaches follow opposite swings.",
+      "par": 43,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 190,
+          "speed": 0.7,
+          "phase": 0.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 0.95,
+          "phase": 3.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 165,
+          "speed": 0.85,
+          "phase": 5.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Harbor Bell",
+      "world": 2,
+      "subtitle": "Two sways set up a calm ring landing.",
+      "par": 45,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 0.8,
+          "phase": 1.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 180,
+          "speed": 0.65,
+          "phase": 4.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 1.05,
+          "phase": 0.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 170,
+          "speed": 0.9,
+          "phase": 2.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Undertow",
+      "world": 2,
+      "subtitle": "Sliding bands interrupt the swinging cadence.",
+      "par": 46,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 175,
+          "speed": 0.9,
+          "phase": 4.5,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 195,
+          "speed": 0.8,
+          "phase": 0.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 0.95,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Tidal Steps",
+      "world": 2,
+      "subtitle": "Build height between measured pendulum beats.",
+      "par": 48,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 140,
+          "speed": 1.0,
+          "phase": 3.5,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 195,
+          "speed": 0.85,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 165,
+          "speed": 0.75,
+          "phase": 1.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 155,
+          "speed": 1.1,
+          "phase": 4.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Twin Moons",
+      "world": 2,
+      "subtitle": "Back-to-back swings use different periods.",
+      "par": 50,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 165,
+          "speed": 0.95,
+          "phase": 4.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.05,
+          "phase": 0.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 185,
+          "speed": 0.7,
+          "phase": 3.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.0,
+          "phase": 5.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Slack Water",
+      "world": 2,
+      "subtitle": "The lowest speed marks a useful waiting point.",
+      "par": 49,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 175,
+          "speed": 0.85,
+          "phase": 5.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 0.6,
+          "phase": 1.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 150,
+          "speed": 1.15,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 160,
+          "speed": 1.1,
+          "phase": 0.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Deep Current",
+      "world": 2,
+      "subtitle": "Five different reaches resist automatic tapping.",
+      "par": 53,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 0.95,
+          "phase": 0.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 185,
+          "speed": 1.1,
+          "phase": 2.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 140,
+          "speed": 1.15,
+          "phase": 5.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 170,
+          "speed": 1.0,
+          "phase": 1.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 0.8,
+          "phase": 4.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Circuit Break",
+      "world": 2,
+      "subtitle": "Fast bands frame a slower double sway.",
+      "par": 54,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.2,
+          "phase": 1.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 175,
+          "speed": 0.85,
+          "phase": 3.9,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.0,
+          "phase": 5.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 190,
+          "speed": 1.05,
+          "phase": 2.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 160,
+          "speed": 1.15,
+          "phase": 4.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Tidal Circuit Finale",
+      "world": 2,
+      "subtitle": "Finish a six-contact harbor route.",
+      "par": 58,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 165,
+          "speed": 1.05,
+          "phase": 2.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "ring",
+          "gap": 190,
+          "speed": 1.0,
+          "phase": 4.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 140,
+          "speed": 1.2,
+          "phase": 0.5,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 180,
+          "speed": 0.9,
+          "phase": 3.1,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.1,
+          "phase": 5.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 170,
+          "speed": 1.15,
+          "phase": 1.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 32
+        }
+      ]
+    }
+  ]
+}

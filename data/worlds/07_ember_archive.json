@@ -1,0 +1,575 @@
+{
+  "id": 7,
+  "name": "Ember Archive",
+  "theme": "Warm copper stacks; old mechanics return in unfamiliar orders.",
+  "accent": "#F7A078",
+  "levels": [
+    {
+      "id": 61,
+      "name": "Cinder Index",
+      "world": 7,
+      "subtitle": "Switch into a pulse, then reverse the exit.",
+      "par": 56,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 0.2,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 1.0,
+          "phase": 2.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.36
+        },
+        {
+          "kind": "reverse",
+          "gap": 160,
+          "speed": 1.05,
+          "phase": 4.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 185,
+          "speed": 1.25,
+          "phase": 1.4,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Borrowed Flame",
+      "world": 7,
+      "subtitle": "Two relays frame a compact pendulum.",
+      "par": 58,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 1.0,
+          "phase": 0.9,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.35,
+          "phase": 3.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 180,
+          "speed": 0.8,
+          "phase": 5.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.15,
+          "phase": 1.8,
+          "offset": 2,
+          "color": 3,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Emberline",
+      "world": 7,
+      "subtitle": "A wide-reaching inverse stage separates quick bands.",
+      "par": 59,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 140,
+          "speed": 1.4,
+          "phase": 1.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 195,
+          "speed": 0.85,
+          "phase": 4.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "slide",
+          "gap": 165,
+          "speed": 1.3,
+          "phase": 0.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 1.1,
+          "phase": 2.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Copper Page",
+      "world": 7,
+      "subtitle": "The changed identity persists through two fields.",
+      "par": 61,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 170,
+          "speed": 1.2,
+          "phase": 2.2,
+          "offset": 3,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 4.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 185,
+          "speed": 1.25,
+          "phase": 1.1,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "reverse",
+          "gap": 160,
+          "speed": 1.2,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 145,
+          "speed": 1.4,
+          "phase": 5.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Ash Pendulum",
+      "world": 7,
+      "subtitle": "Long swinging lifts alternate with short relays.",
+      "par": 63,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 1.15,
+          "phase": 3.4,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 135,
+          "speed": 1.1,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 175,
+          "speed": 1.3,
+          "phase": 1.9,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 155,
+          "speed": 0.95,
+          "phase": 4.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 1.05,
+          "phase": 0.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Archive Key",
+      "world": 7,
+      "subtitle": "Two switches separate the route into color phrases.",
+      "par": 64,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 1.15,
+          "phase": 4.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "switch",
+          "gap": 180,
+          "speed": 1.1,
+          "phase": 0.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.05,
+          "phase": 3.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.25,
+          "phase": 5.2,
+          "offset": 3,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 190,
+          "speed": 0.95,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Smoldering Shelf",
+      "world": 7,
+      "subtitle": "Pulse, reverse and relay with patient landings.",
+      "par": 65,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 1.0,
+          "phase": 5.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "reverse",
+          "gap": 145,
+          "speed": 1.25,
+          "phase": 1.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 170,
+          "speed": 0.9,
+          "phase": 3.8,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.4,
+          "phase": 0.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 1.2,
+          "phase": 2.7,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "A Note In Fire",
+      "world": 7,
+      "subtitle": "The final color change precedes a longer relay.",
+      "par": 67,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.45,
+          "phase": 0.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "ring",
+          "gap": 190,
+          "speed": 1.25,
+          "phase": 3.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 160,
+          "speed": 1.15,
+          "phase": 5.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.3,
+          "phase": 1.7,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 185,
+          "speed": 0.85,
+          "phase": 4.4,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Last Reading",
+      "world": 7,
+      "subtitle": "Six distinct heights resist a memorized tap loop.",
+      "par": 68,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 140,
+          "speed": 1.15,
+          "phase": 1.3,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 180,
+          "speed": 1.1,
+          "phase": 3.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 1.25,
+          "phase": 5.8,
+          "offset": 3,
+          "color": 1,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 1.2,
+          "phase": 2.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "reverse",
+          "gap": 165,
+          "speed": 1.3,
+          "phase": 4.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 150,
+          "speed": 1.45,
+          "phase": 0.9,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Ember Archive Finale",
+      "world": 7,
+      "subtitle": "Seven mechanisms form the archive's full lesson.",
+      "par": 73,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.2,
+          "phase": 2.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 185,
+          "speed": 0.9,
+          "phase": 4.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 145,
+          "speed": 1.35,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 1.2,
+          "phase": 3.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.45,
+          "phase": 5.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "switch",
+          "gap": 190,
+          "speed": 1.1,
+          "phase": 1.9,
+          "offset": 0,
+          "color": 3,
+          "checkpoint": true
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 4.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    }
+  ]
+}

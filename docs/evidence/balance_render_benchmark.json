@@ -1,0 +1,145 @@
+{
+	"cpu": "AMD Ryzen 7 7840HS w/ Radeon 780M Graphics",
+	"date": "2026-11-05",
+	"driver": "Windows",
+	"engine": "4.7.2-stable (official)",
+	"gpu": "AMD Radeon 780M Graphics",
+	"platform": "Windows",
+	"scope": "Native desktop App, timed inputs; optional synthetic capped feedback; not phone performance",
+	"stress": true,
+	"summary": {
+		"aggregate_rendered_fps": 59.7463669392256,
+		"focus_resumes": 0,
+		"frames": 1197,
+		"measured_wall_seconds": 20.034691,
+		"worlds": 10,
+		"worst_world_p95_frame_ms": 18.828
+	},
+	"viewport": [
+		480,
+		900
+	],
+	"warmup_seconds_per_world": 0.35,
+	"worlds": [
+		{
+			"frame_ms_max": 56.73,
+			"frame_ms_p50": 16.725,
+			"frame_ms_p95": 18.828,
+			"frames": 117,
+			"max_draw_calls": 251,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 58.3740870941379,
+			"wall_seconds": 2.004314,
+			"world": 1
+		},
+		{
+			"frame_ms_max": 21.632,
+			"frame_ms_p50": 16.703,
+			"frame_ms_p95": 17.683,
+			"frames": 121,
+			"max_draw_calls": 155,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 60.48203683506,
+			"wall_seconds": 2.000594,
+			"world": 2
+		},
+		{
+			"frame_ms_max": 26.157,
+			"frame_ms_p50": 16.723,
+			"frame_ms_p95": 17.267,
+			"frames": 120,
+			"max_draw_calls": 234,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.8942865841789,
+			"wall_seconds": 2.00353,
+			"world": 3
+		},
+		{
+			"frame_ms_max": 24.694,
+			"frame_ms_p50": 16.697,
+			"frame_ms_p95": 17.25,
+			"frames": 120,
+			"max_draw_calls": 167,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.8597187491115,
+			"wall_seconds": 2.004687,
+			"world": 4
+		},
+		{
+			"frame_ms_max": 17.881,
+			"frame_ms_p50": 16.71,
+			"frame_ms_p95": 17.184,
+			"frames": 120,
+			"max_draw_calls": 276,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.9056785091873,
+			"wall_seconds": 2.003149,
+			"world": 5
+		},
+		{
+			"frame_ms_max": 25.461,
+			"frame_ms_p50": 16.714,
+			"frame_ms_p95": 17.153,
+			"frames": 120,
+			"max_draw_calls": 222,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.874353668826,
+			"wall_seconds": 2.004197,
+			"world": 6
+		},
+		{
+			"frame_ms_max": 17.461,
+			"frame_ms_p50": 16.718,
+			"frame_ms_p95": 17.233,
+			"frames": 120,
+			"max_draw_calls": 176,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.884124219635,
+			"wall_seconds": 2.00387,
+			"world": 7
+		},
+		{
+			"frame_ms_max": 19.8,
+			"frame_ms_p50": 16.73,
+			"frame_ms_p95": 17.147,
+			"frames": 120,
+			"max_draw_calls": 244,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.9016714063864,
+			"wall_seconds": 2.003283,
+			"world": 8
+		},
+		{
+			"frame_ms_max": 22.466,
+			"frame_ms_p50": 16.737,
+			"frame_ms_p95": 17.302,
+			"frames": 120,
+			"max_draw_calls": 176,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.8817634580521,
+			"wall_seconds": 2.003949,
+			"world": 9
+		},
+		{
+			"frame_ms_max": 34.142,
+			"frame_ms_p50": 16.701,
+			"frame_ms_p95": 17.282,
+			"frames": 119,
+			"max_draw_calls": 269,
+			"peak_shards": 28,
+			"peak_sparks": 90,
+			"rendered_fps": 59.4073838885178,
+			"wall_seconds": 2.003118,
+			"world": 10
+		}
+	]
+}

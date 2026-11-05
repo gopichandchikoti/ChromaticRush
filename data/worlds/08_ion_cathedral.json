@@ -1,0 +1,602 @@
+{
+  "id": 8,
+  "name": "Ion Cathedral",
+  "theme": "Cyan vaulted circuitry; longer phrases and denser relays.",
+  "accent": "#72E9CC",
+  "levels": [
+    {
+      "id": 71,
+      "name": "Antechamber",
+      "world": 8,
+      "subtitle": "A slow relay opens into a faster upper section.",
+      "par": 59,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 180,
+          "speed": 0.85,
+          "phase": 0.1,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.45,
+          "phase": 2.5,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 1.15,
+          "phase": 4.8,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "reverse",
+          "gap": 155,
+          "speed": 1.2,
+          "phase": 1.3,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Ion Choir",
+      "world": 8,
+      "subtitle": "Pulse periods alternate without relying on audio.",
+      "par": 61,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 150,
+          "speed": 1.25,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 0.95,
+          "phase": 3.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.32
+        },
+        {
+          "kind": "switch",
+          "gap": 160,
+          "speed": 1.3,
+          "phase": 5.5,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 175,
+          "speed": 1.4,
+          "phase": 1.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 1.15,
+          "phase": 4.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Vaulted Ascent",
+      "world": 8,
+      "subtitle": "High swing, low relay, inverted middle.",
+      "par": 63,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 195,
+          "speed": 1.25,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 140,
+          "speed": 1.2,
+          "phase": 3.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 175,
+          "speed": 1.15,
+          "phase": 0.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "ring",
+          "gap": 155,
+          "speed": 1.5,
+          "phase": 2.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 1.05,
+          "phase": 5.1,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Luminous Nave",
+      "world": 8,
+      "subtitle": "Two switches reshape a pendulum-led route.",
+      "par": 64,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 160,
+          "speed": 1.5,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "switch",
+          "gap": 180,
+          "speed": 1.2,
+          "phase": 4.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.1,
+          "phase": 1.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.4,
+          "phase": 3.6,
+          "offset": 0,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 190,
+          "speed": 1.0,
+          "phase": 5.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Crossing Wires",
+      "world": 8,
+      "subtitle": "Moving bands interrupt both halves of a chain route.",
+      "par": 66,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.55,
+          "phase": 3.3,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 175,
+          "speed": 0.95,
+          "phase": 5.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 140,
+          "speed": 1.6,
+          "phase": 1.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 1.15,
+          "phase": 4.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "chain",
+          "gap": 160,
+          "speed": 1.2,
+          "phase": 0.5,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Quiet Voltage",
+      "world": 8,
+      "subtitle": "A generous middle pulse offers a planning pause.",
+      "par": 67,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 180,
+          "speed": 1.1,
+          "phase": 4.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 1.55,
+          "phase": 0.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "pulse",
+          "gap": 195,
+          "speed": 0.9,
+          "phase": 2.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.32
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.35,
+          "phase": 5.1,
+          "offset": 2,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.25,
+          "phase": 1.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Cathedral Steps",
+      "world": 8,
+      "subtitle": "Three relay spans use deliberately different heights.",
+      "par": 68,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "chain",
+          "gap": 135,
+          "speed": 1.3,
+          "phase": 5.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.3,
+          "phase": 1.1,
+          "offset": 1,
+          "color": 2,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 185,
+          "speed": 0.95,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "reverse",
+          "gap": 150,
+          "speed": 1.4,
+          "phase": 0.2,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 165,
+          "speed": 1.15,
+          "phase": 2.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Glass Canticle",
+      "world": 8,
+      "subtitle": "Gravity flips between two pulse measurements.",
+      "par": 70,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 170,
+          "speed": 1.3,
+          "phase": 0.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "reverse",
+          "gap": 195,
+          "speed": 1.0,
+          "phase": 2.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 145,
+          "speed": 1.6,
+          "phase": 5.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "pulse",
+          "gap": 155,
+          "speed": 1.2,
+          "phase": 1.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "switch",
+          "gap": 180,
+          "speed": 1.25,
+          "phase": 4.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.2,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Signal Spire",
+      "world": 8,
+      "subtitle": "Six measured lifts culminate in a reversed exit.",
+      "par": 72,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 185,
+          "speed": 1.4,
+          "phase": 1.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 1.35,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 165,
+          "speed": 1.4,
+          "phase": 5.7,
+          "offset": 3,
+          "color": 2,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 190,
+          "speed": 1.1,
+          "phase": 2.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.55,
+          "phase": 4.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 52
+        },
+        {
+          "kind": "reverse",
+          "gap": 175,
+          "speed": 1.3,
+          "phase": 0.9,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Ion Cathedral Finale",
+      "world": 8,
+      "subtitle": "A seven-stage phrase across all learned mechanics.",
+      "par": 76,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pulse",
+          "gap": 165,
+          "speed": 1.25,
+          "phase": 2.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.32
+        },
+        {
+          "kind": "chain",
+          "gap": 185,
+          "speed": 1.0,
+          "phase": 4.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 145,
+          "speed": 1.45,
+          "phase": 0.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.35,
+          "phase": 3.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 155,
+          "speed": 1.6,
+          "phase": 5.5,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 190,
+          "speed": 1.3,
+          "phase": 1.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "drift": 52
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 1.3,
+          "phase": 4.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    }
+  ]
+}

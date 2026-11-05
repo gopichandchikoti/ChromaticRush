@@ -1,0 +1,28 @@
+{
+	"captures": [
+		"res://docs/evidence/world-01-play.png",
+		"res://docs/evidence/world-01-result.png",
+		"res://docs/evidence/world-02-play.png",
+		"res://docs/evidence/world-02-result.png",
+		"res://docs/evidence/world-03-play.png",
+		"res://docs/evidence/world-03-result.png",
+		"res://docs/evidence/world-04-play.png",
+		"res://docs/evidence/world-04-result.png",
+		"res://docs/evidence/world-05-play.png",
+		"res://docs/evidence/world-05-result.png",
+		"res://docs/evidence/world-06-play.png",
+		"res://docs/evidence/world-06-result.png",
+		"res://docs/evidence/world-07-play.png",
+		"res://docs/evidence/world-07-result.png",
+		"res://docs/evidence/world-08-play.png",
+		"res://docs/evidence/world-08-result.png",
+		"res://docs/evidence/world-09-play.png",
+		"res://docs/evidence/world-09-result.png",
+		"res://docs/evidence/world-10-play.png",
+		"res://docs/evidence/world-10-result.png"
+	],
+	"checks": 63,
+	"failures": [],
+	"focus_resumes": 0,
+	"method": "Native App input replay, first authored route in each world; isolated practice saves"
+}

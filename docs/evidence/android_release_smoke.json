@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-04",
+  "apk_sha256": "4990502449ab61ea2fef4aed254d15a10b1defcc90f7f21efee5c5c785730a90",
+  "device": "ChromaticRush_Test / emulator-5560 / Android 35 x86_64",
+  "display": "540x1200 override, host GPU",
+  "method": "ADB installation and input, actual emulator screenshots visually inspected",
+  "install": "install -r: Success; prior one-clear, three-star save preserved",
+  "launch": "am start -W: Status ok, COLD, TotalTime 1271 ms",
+  "touch": "Direct arena tap visibly propels orb; native field and HUD remain active",
+  "back": "Back from live route opens pause, same PID 3436; Back resumes gameplay",
+  "offline": "airplane_mode_on=1; force-stop/relaunch Status ok, COLD, TotalTime 1649 ms; menu retains 001/100 and 003/300; Continue restores stage 3 and cumulative time; direct tap propels offline",
+  "persistence": "App-private JSON after offline touch: version 2, level 2, checkpoint stage 2, color 0, taps 7, deaths 5; original level-one three-star record retained",
+  "crash_buffer": "logcat -b crash -d -t 30 returned no crash entries",
+  "cleanup": "Dedicated emulator airplane mode restored to original value 0",
+  "screenshots": [
+    "android-release-menu.png", "android-release-play.png", "android-release-touch.png",
+    "android-release-pause.png", "android-release-resume.png", "android-release-offline.png",
+    "android-release-offline-ready.png", "android-release-offline-touch.png"
+  ],
+  "not_measured": [
+    "Physical-device install", "touch latency", "haptic output", "listening quality",
+    "midrange-device FPS", "thermal and battery behavior"
+  ]
+}

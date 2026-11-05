@@ -1,0 +1,522 @@
+{
+  "id": 6,
+  "name": "Inverse Sky",
+  "theme": "Cool periwinkle gravity fields; reversed stages descend.",
+  "accent": "#9CAFFF",
+  "levels": [
+    {
+      "id": 51,
+      "name": "Down Is Forward",
+      "world": 6,
+      "subtitle": "In the field, tap toward the lower exit.",
+      "par": 50,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 145,
+          "speed": 0.65,
+          "phase": 0.0,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 160,
+          "speed": 1.0,
+          "phase": 2.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "reverse",
+          "gap": 150,
+          "speed": 0.75,
+          "phase": 4.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "A Sky Below",
+      "world": 6,
+      "subtitle": "The field ends before the next rising band.",
+      "par": 53,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 175,
+          "speed": 0.7,
+          "phase": 0.8,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 145,
+          "speed": 1.15,
+          "phase": 3.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pendulum",
+          "gap": 165,
+          "speed": 1.1,
+          "phase": 5.4,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "ring",
+          "gap": 185,
+          "speed": 1.05,
+          "phase": 1.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Inverted Bloom",
+      "world": 6,
+      "subtitle": "A switch announces a new descending color.",
+      "par": 55,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "switch",
+          "gap": 155,
+          "speed": 1.05,
+          "phase": 1.5,
+          "offset": 2,
+          "color": 3,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 180,
+          "speed": 0.8,
+          "phase": 3.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 145,
+          "speed": 1.1,
+          "phase": 0.3,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "slide",
+          "gap": 170,
+          "speed": 1.2,
+          "phase": 2.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Low Orbit",
+      "world": 6,
+      "subtitle": "Two descending fields bracket an upward ring.",
+      "par": 56,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 140,
+          "speed": 0.9,
+          "phase": 2.1,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "ring",
+          "gap": 195,
+          "speed": 1.1,
+          "phase": 4.6,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "reverse",
+          "gap": 165,
+          "speed": 0.75,
+          "phase": 1.0,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 155,
+          "speed": 1.25,
+          "phase": 3.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Polarity Relay",
+      "world": 6,
+      "subtitle": "Descending timing leads into a two-contact lift.",
+      "par": 59,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 160,
+          "speed": 0.85,
+          "phase": 3.3,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 0.8,
+          "phase": 5.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 175,
+          "speed": 0.95,
+          "phase": 1.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": true,
+          "width": 0.36
+        },
+        {
+          "kind": "reverse",
+          "gap": 185,
+          "speed": 0.7,
+          "phase": 4.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Turn The Compass",
+      "world": 6,
+      "subtitle": "Change color at the center of the route.",
+      "par": 60,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "pendulum",
+          "gap": 170,
+          "speed": 1.25,
+          "phase": 4.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        },
+        {
+          "kind": "reverse",
+          "gap": 150,
+          "speed": 1.0,
+          "phase": 0.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 190,
+          "speed": 1.0,
+          "phase": 2.9,
+          "offset": 0,
+          "color": 2,
+          "checkpoint": true
+        },
+        {
+          "kind": "chain",
+          "gap": 155,
+          "speed": 0.9,
+          "phase": 5.1,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 165,
+          "speed": 0.9,
+          "phase": 1.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Falling Lantern",
+      "world": 6,
+      "subtitle": "Long inverted reaches need renewed impulses.",
+      "par": 62,
+      "start_color": 3,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 195,
+          "speed": 0.75,
+          "phase": 5.2,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 145,
+          "speed": 1.05,
+          "phase": 1.1,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "reverse",
+          "gap": 180,
+          "speed": 0.85,
+          "phase": 3.7,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 160,
+          "speed": 1.15,
+          "phase": 0.2,
+          "offset": 2,
+          "color": 1,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 150,
+          "speed": 1.3,
+          "phase": 2.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "North Of Nowhere",
+      "world": 6,
+      "subtitle": "A chain marks the turning point between fields.",
+      "par": 63,
+      "start_color": 2,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 155,
+          "speed": 1.05,
+          "phase": 0.5,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 175,
+          "speed": 0.85,
+          "phase": 2.9,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 140,
+          "speed": 1.15,
+          "phase": 5.2,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 0.9,
+          "phase": 1.6,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "slide",
+          "gap": 160,
+          "speed": 1.3,
+          "phase": 4.3,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "False Horizon",
+      "world": 6,
+      "subtitle": "Read the exit arrow after every checkpoint.",
+      "par": 65,
+      "start_color": 0,
+      "stages": [
+        {
+          "kind": "ring",
+          "gap": 185,
+          "speed": 1.2,
+          "phase": 1.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 145,
+          "speed": 1.1,
+          "phase": 3.6,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "switch",
+          "gap": 170,
+          "speed": 1.15,
+          "phase": 5.7,
+          "offset": 3,
+          "color": 3,
+          "checkpoint": true
+        },
+        {
+          "kind": "reverse",
+          "gap": 190,
+          "speed": 0.8,
+          "phase": 2.0,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "chain",
+          "gap": 150,
+          "speed": 0.95,
+          "phase": 4.6,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Inverse Sky Finale",
+      "world": 6,
+      "subtitle": "Six stages test polarity without hidden input.",
+      "par": 69,
+      "start_color": 1,
+      "stages": [
+        {
+          "kind": "reverse",
+          "gap": 165,
+          "speed": 1.0,
+          "phase": 2.4,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pulse",
+          "gap": 185,
+          "speed": 1.0,
+          "phase": 4.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "width": 0.36
+        },
+        {
+          "kind": "chain",
+          "gap": 145,
+          "speed": 1.0,
+          "phase": 0.7,
+          "offset": 2,
+          "color": 0,
+          "checkpoint": true
+        },
+        {
+          "kind": "switch",
+          "gap": 175,
+          "speed": 1.2,
+          "phase": 3.2,
+          "offset": 0,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "reverse",
+          "gap": 155,
+          "speed": 1.15,
+          "phase": 5.5,
+          "offset": 1,
+          "color": 0,
+          "checkpoint": false
+        },
+        {
+          "kind": "pendulum",
+          "gap": 180,
+          "speed": 1.25,
+          "phase": 1.8,
+          "offset": 3,
+          "color": 0,
+          "checkpoint": false,
+          "drift": 42
+        }
+      ]
+    }
+  ]
+}

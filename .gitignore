@@ -1,0 +1,13 @@
+.godot/
+builds/*
+!builds/.gitkeep
+*.tmp
+*.log
+*.keystore
+*.jks
+*.p12
+*.pfx
+release-password.*
+.env
+.tools/
+__pycache__/

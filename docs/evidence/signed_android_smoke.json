@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "artifact": "chromatic-rush-1.0.0-release.apk",
+  "apk_sha256": "8a29465f3d5d7cf77bb6078e4db10d350123b7eaf36177af0732e6bcc557a880",
+  "certificate_sha256": "0f84da993081ffe4d72793b5724cc18eac311e91cb3ed78a72a7f8e1456cfb5c",
+  "avd": "ChromaticRush_Release_Test",
+  "android_api": 35,
+  "abi": "x86_64",
+  "display": [
+    540,
+    1200
+  ],
+  "density": 200,
+  "renderer": "host: AMD Radeon 780M",
+  "adb_server_port": 5038,
+  "checks": {
+    "install": "pass",
+    "rendered_menu": "pass",
+    "direct_arena_touch": "one tap observed",
+    "back_pause_resume": "pass, PID 2782 retained",
+    "offline_relaunch": "pass, 48.6s cumulative time restored",
+    "large_text_toggle": "pass",
+    "same_version_signed_reinstall": "pass, large text retained",
+    "airplane_mode_restored": 0,
+    "crash_buffer": "empty"
+  },
+  "launch_ms": {
+    "host_cold": 1374,
+    "offline_cold": 942,
+    "same_version_reinstall": 740
+  },
+  "failed_configuration": {
+    "gpu": "swiftshader_indirect",
+    "result": "blank canvas",
+    "error": "Fragment shader active uniforms exceed GL_MAX_FRAGMENT_UNIFORM_VECTORS (261)",
+    "resolution": "same APK renders with -gpu host"
+  },
+  "screenshots": [
+    "signed-home.png",
+    "signed-large-settings.png",
+    "signed-offline.png",
+    "signed-pause.png",
+    "signed-ready.png",
+    "signed-reinstall-large.png",
+    "signed-resume.png",
+    "signed-settings.png"
+  ],
+  "not_tested": [
+    "physical phone (owner opted out)",
+    "audio output",
+    "haptics",
+    "phone FPS",
+    "screen reader"
+  ],
+  "scope": "Inspected emulator states and developer input commands; not human playtesting"
+}

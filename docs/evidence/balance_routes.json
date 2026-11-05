@@ -1,0 +1,9357 @@
+{
+	"caution": "Earliest-success schedules hug boundaries; global schedule perturbation is not human difficulty",
+	"date": "2026-11-05",
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"levels": [
+		{
+			"baseline_seconds": 1.21666666666666,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.508333333333334,
+					0.733333333333333,
+					1.00833333333333,
+					1.23333333333333
+				],
+				"seconds": 1.325,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 0.166666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 1,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 1.81666666666666,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "A Small Beginning",
+			"par_seconds": 32.0,
+			"par_slack_seconds": 30.7833333333333,
+			"stages": 3,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 2.39166666666666,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.508333333333334,
+					0.733333333333333,
+					2.16666666666666,
+					2.39166666666666
+				],
+				"seconds": 2.49999999999999,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.3
+					}
+				],
+				"stars": 3
+			},
+			"id": 2,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 8,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 10,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 9,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 2.72499999999999,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "Sideways Signal",
+			"par_seconds": 36.0,
+			"par_slack_seconds": 33.6083333333333,
+			"stages": 3,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 1.23333333333333,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.516666666666667,
+					0.741666666666666,
+					1.00833333333333,
+					1.23333333333333
+				],
+				"seconds": 1.30833333333333,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 3,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 2,
+					"global_shift_trials": 2,
+					"independent_passes": 10,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 2,
+					"global_shift_trials": 2,
+					"independent_passes": 10,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 2,
+					"global_shift_trials": 2,
+					"independent_passes": 10,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 1.79166666666666,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "Three Quiet Orbits",
+			"par_seconds": 38.0,
+			"par_slack_seconds": 36.7666666666667,
+			"stages": 3,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 8.15000000000018,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					6.90000000000013,
+					7.12500000000014,
+					10.2333333333334,
+					10.4583333333334,
+					15.9749999999997,
+					16.1999999999997
+				],
+				"seconds": 16.358333333333,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 6.9
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 2.9
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 5.43333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 4,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 0,
+				"recovery": {
+					"checkpoint": 0,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 16.2499999999997,
+					"stars": 2
+				},
+				"stage": 1,
+				"status": "failed"
+			},
+			"name": "The Long Step",
+			"par_seconds": 40.0,
+			"par_slack_seconds": 31.8499999999998,
+			"stages": 3,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 12.2083333333333,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.43333333333334,
+					4.65833333333335,
+					7.76666666666684,
+					7.99166666666685,
+					10.825,
+					11.05,
+					12.0,
+					12.2249999999999
+				],
+				"seconds": 12.3083333333333,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 4.43333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 3.0
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 2.66666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.833333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 5,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.8583333333332,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Counterweight",
+			"par_seconds": 42.0,
+			"par_slack_seconds": 29.7916666666667,
+			"stages": 4,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 10.3833333333334,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.766666666666666,
+					0.991666666666666,
+					1.53333333333333,
+					1.75833333333333,
+					8.60000000000015,
+					8.82500000000014,
+					10.1666666666667,
+					10.3916666666667
+				],
+				"seconds": 10.4833333333334,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.766666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 0.466666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 6.7
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 1.13333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 6,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 18.9333333333329,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "playing"
+			},
+			"name": "Signal Ladder",
+			"par_seconds": 42.0,
+			"par_slack_seconds": 31.6166666666666,
+			"stages": 4,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 7.59166666666683,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.16666666666666,
+					2.39166666666666,
+					3.72499999999999,
+					3.94999999999999,
+					5.67500000000007,
+					5.90000000000008,
+					7.33333333333349,
+					7.5583333333335
+				],
+				"seconds": 7.69166666666684,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 2.16666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.2
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 1.26666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 7,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.8749999999999,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Twilight Crossing",
+			"par_seconds": 44.0,
+			"par_slack_seconds": 36.4083333333332,
+			"stages": 4,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 9.78333333333342,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.23333333333333,
+					2.45833333333333,
+					4.68333333333336,
+					4.90833333333337,
+					6.05833333333342,
+					6.28333333333344,
+					9.54166666666677,
+					9.76666666666675
+				],
+				"seconds": 9.88333333333341,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 2.23333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.06666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 3.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 8,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.5083333333331,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Slow Before Fast",
+			"par_seconds": 46.0,
+			"par_slack_seconds": 36.2166666666666,
+			"stages": 4,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 11.15,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.03333333333333,
+					1.25833333333333,
+					1.94166666666666,
+					2.16666666666666,
+					5.37500000000006,
+					5.60000000000007,
+					6.45000000000011,
+					6.67500000000012,
+					10.8833333333334,
+					11.1083333333333
+				],
+				"seconds": 11.25,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 1.03333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 0.6
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 3.1
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.666666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 4.13333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 9,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 17.7499999999996,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Aperture Study",
+			"par_seconds": 48.0,
+			"par_slack_seconds": 36.85,
+			"stages": 5,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 7.13333333333348,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.8,
+					1.025,
+					2.82499999999999,
+					3.04999999999999,
+					4.42500000000001,
+					4.65000000000002,
+					5.27500000000005,
+					5.50000000000006,
+					6.82500000000013,
+					7.05000000000014
+				],
+				"seconds": 7.23333333333348,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.8
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 1.66666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.16666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 0.533333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 5,
+						"wait": 1.16666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 10,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.2249999999999,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "First Light Finale",
+			"par_seconds": 52.0,
+			"par_slack_seconds": 44.8666666666665,
+			"stages": 5,
+			"world": 1
+		},
+		{
+			"baseline_seconds": 10.9,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					5.70000000000007,
+					5.92500000000008,
+					6.44166666666678,
+					6.66666666666679,
+					10.6833333333334,
+					10.9083333333334
+				],
+				"seconds": 11.0,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 5.7
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.433333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 3.9
+					}
+				],
+				"stars": 3
+			},
+			"id": 11,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.2166666666667,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "The First Sway",
+			"par_seconds": 40.0,
+			"par_slack_seconds": 29.1,
+			"stages": 3,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 7.65000000000017,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.16666666666666,
+					4.39166666666667,
+					6.35000000000011,
+					6.57500000000012,
+					7.39166666666682,
+					7.61666666666684
+				],
+				"seconds": 7.75000000000018,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 4.16666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.76666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.733333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 12,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 8.00833333333352,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "Ebb And Lift",
+			"par_seconds": 43.0,
+			"par_slack_seconds": 35.3499999999998,
+			"stages": 3,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 10.8666666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.29999999999999,
+					2.52499999999999,
+					3.09999999999999,
+					3.32499999999999,
+					6.92500000000013,
+					7.15000000000015,
+					10.6,
+					10.825
+				],
+				"seconds": 10.9666666666667,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 2.3
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 0.466666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 3.43333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 3.36666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 13,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.8749999999999,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Harbor Bell",
+			"par_seconds": 45.0,
+			"par_slack_seconds": 34.1333333333333,
+			"stages": 4,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 6.14166666666676,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					1.71666666666666,
+					1.94166666666666,
+					3.39999999999999,
+					3.62499999999999,
+					5.93333333333342,
+					6.15833333333343
+				],
+				"seconds": 6.24166666666677,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 1.3
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.3
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 2.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 14,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 8.8916666666668,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "playing"
+			},
+			"name": "Undertow",
+			"par_seconds": 46.0,
+			"par_slack_seconds": 39.8583333333332,
+			"stages": 4,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 9.22500000000012,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.133333333333333,
+					0.358333333333334,
+					4.2,
+					4.42500000000001,
+					5.6333333333334,
+					5.85833333333341,
+					8.9916666666668,
+					9.21666666666678
+				],
+				"seconds": 9.32500000000011,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.133333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 3.76666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.0
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 3.0
+					}
+				],
+				"stars": 3
+			},
+			"id": 15,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 14.9499999999998,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Tidal Steps",
+			"par_seconds": 48.0,
+			"par_slack_seconds": 38.7749999999999,
+			"stages": 4,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 9.09166666666679,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.96666666666666,
+					2.19166666666666,
+					5.02500000000004,
+					5.25000000000005,
+					8.47500000000016,
+					8.70000000000015,
+					8.98333333333346,
+					9.20833333333345
+				],
+				"seconds": 9.29166666666678,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 1.96666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 2.7
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 3.13333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 16,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 9,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.0416666666667,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Twin Moons",
+			"par_seconds": 50.0,
+			"par_slack_seconds": 40.9083333333332,
+			"stages": 4,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 6.93333333333347,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.4,
+					1.625,
+					1.88333333333333,
+					2.10833333333333,
+					6.1500000000001,
+					6.37500000000011,
+					6.56666666666678,
+					6.79166666666679
+				],
+				"seconds": 6.90833333333347,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 1.4
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 3.83333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 17,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.8666666666666,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Slack Water",
+			"par_seconds": 49.0,
+			"par_slack_seconds": 42.0666666666665,
+			"stages": 4,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 7.51666666666683,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.49999999999999,
+					3.72499999999999,
+					5.75000000000008,
+					5.97500000000009,
+					9.12500000000012,
+					9.35000000000011,
+					12.2916666666666,
+					12.5166666666666,
+					15.0583333333331,
+					15.2833333333331
+				],
+				"seconds": 15.4916666666664,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 3.5
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.93333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 2.96666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 2.86666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 2.4
+					}
+				],
+				"stars": 3
+			},
+			"id": 18,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.3833333333331,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Deep Current",
+			"par_seconds": 53.0,
+			"par_slack_seconds": 45.4833333333332,
+			"stages": 5,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 12.3166666666666,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.6,
+					0.825,
+					2.54166666666666,
+					2.76666666666666,
+					7.22500000000015,
+					7.45000000000016,
+					9.49166666666677,
+					9.71666666666676,
+					12.075,
+					12.2999999999999
+				],
+				"seconds": 12.4166666666666,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.6
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 4.3
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 1.93333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 2.16666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 19,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.0749999999999,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Circuit Break",
+			"par_seconds": 54.0,
+			"par_slack_seconds": 41.6833333333334,
+			"stages": 5,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 8.8666666666668,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.933333333333332,
+					1.15833333333333,
+					5.89166666666675,
+					6.11666666666676,
+					7.6083333333335,
+					7.83333333333351,
+					10.2416666666667,
+					10.4666666666667,
+					10.7333333333334,
+					10.9583333333334,
+					11.9333333333333,
+					12.1583333333333
+				],
+				"seconds": 12.2999999999999,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 4.6
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.3
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 2.33333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 5,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 6,
+						"wait": 0.866666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 20,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 12.2166666666666,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Tidal Circuit Finale",
+			"par_seconds": 58.0,
+			"par_slack_seconds": 49.1333333333332,
+			"stages": 6,
+			"world": 2
+		},
+		{
+			"baseline_seconds": 8.4083333333335,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.4,
+					0.625,
+					6.18333333333343,
+					6.40833333333344,
+					8.17500000000018,
+					8.40000000000016
+				],
+				"seconds": 8.50833333333349,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.4
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 5.46666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.63333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 21,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 8.74166666666681,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "A New Hue",
+			"par_seconds": 44.0,
+			"par_slack_seconds": 35.5916666666665,
+			"stages": 3,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 1.4,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					3.30833333333332,
+					3.53333333333332,
+					4.77500000000003,
+					5.00000000000004,
+					5.20833333333338,
+					5.43333333333339
+				],
+				"seconds": 5.56666666666673,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 2.9
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 1.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 22,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 5.44166666666673,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Petal Exchange",
+			"par_seconds": 48.0,
+			"par_slack_seconds": 46.6,
+			"stages": 4,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 3.39999999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.466666666666667,
+					0.691666666666667,
+					2.01666666666666,
+					2.24166666666666,
+					4.8166666666667,
+					5.04166666666671,
+					9.49166666666677,
+					9.71666666666676
+				],
+				"seconds": 9.80000000000008,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.466666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 1.23333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 2.36666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 4.33333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 23,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 9.68333333333342,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Lantern Walk",
+			"par_seconds": 48.0,
+			"par_slack_seconds": 44.6,
+			"stages": 4,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 3.79999999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					2.59999999999999,
+					2.82499999999999,
+					7.12500000000014,
+					7.35000000000016,
+					7.54166666666683,
+					7.76666666666684
+				],
+				"seconds": 7.90833333333352,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 2.16666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 4.13333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 24,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 7.94166666666685,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Split Blossom",
+			"par_seconds": 50.0,
+			"par_slack_seconds": 46.2,
+			"stages": 4,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 7.98333333333352,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.2,
+					0.425,
+					3.64999999999999,
+					3.87499999999999,
+					6.42500000000011,
+					6.65000000000012,
+					7.72500000000017,
+					7.95000000000018
+				],
+				"seconds": 8.08333333333352,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.2
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 3.03333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 2.46666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 0.966666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 25,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 8,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 9.37500000000011,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Violet Footbridge",
+			"par_seconds": 52.0,
+			"par_slack_seconds": 44.0166666666665,
+			"stages": 4,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 6.78333333333346,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					2.17499999999999,
+					2.39999999999999,
+					3.01666666666666,
+					3.24166666666666,
+					7.86666666666685,
+					8.09166666666685,
+					11.8166666666666,
+					12.0416666666666
+				],
+				"seconds": 12.1166666666666,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.73333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.433333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 4.53333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 3.56666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 26,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 12.0166666666666,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Afterimage",
+			"par_seconds": 54.0,
+			"par_slack_seconds": 47.2166666666665,
+			"stages": 5,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 6.53333333333345,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.53333333333333,
+					1.75833333333333,
+					3.71666666666666,
+					3.94166666666666,
+					4.12499999999999,
+					4.35000000000001,
+					5.20833333333338,
+					5.43333333333339,
+					6.31666666666677,
+					6.54166666666678
+				],
+				"seconds": 6.63333333333345,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 1.53333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 1.8
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.666666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.766666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 27,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 6.51666666666678,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Orchard Loop",
+			"par_seconds": 55.0,
+			"par_slack_seconds": 48.4666666666666,
+			"stages": 5,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 8.62500000000015,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.23333333333333,
+					1.45833333333333,
+					5.84166666666675,
+					6.06666666666676,
+					6.63333333333345,
+					6.85833333333346,
+					7.46666666666683,
+					7.69166666666684,
+					8.36666666666683,
+					8.59166666666682
+				],
+				"seconds": 8.73333333333348,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 1.23333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 4.3
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.4
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.4
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 0.566666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 28,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 14.6249999999998,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "playing"
+			},
+			"name": "Lantern Rain",
+			"par_seconds": 54.0,
+			"par_slack_seconds": 45.3749999999999,
+			"stages": 5,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 8.3833333333335,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.633333333333334,
+					0.858333333333333,
+					1.53333333333333,
+					1.75833333333333,
+					2.01666666666666,
+					2.24166666666666,
+					4.46666666666668,
+					4.69166666666669,
+					8.14166666666685,
+					8.36666666666683
+				],
+				"seconds": 8.48333333333349,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.633333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 0.566666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 2.13333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 3.26666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 29,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.8666666666665,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Fourfold Bloom",
+			"par_seconds": 58.0,
+			"par_slack_seconds": 49.6166666666665,
+			"stages": 5,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 11.3166666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.899999999999999,
+					1.125,
+					4.72500000000002,
+					4.95000000000004,
+					5.24166666666672,
+					5.46666666666673,
+					5.65000000000007,
+					5.87500000000008,
+					9.6000000000001,
+					9.82500000000008,
+					11.0,
+					11.225
+				],
+				"seconds": 11.3916666666667,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.9
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 3.46666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 3.56666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 6,
+						"wait": 1.06666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 30,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 11.3166666666667,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Prism Orchard Finale",
+			"par_seconds": 62.0,
+			"par_slack_seconds": 50.6833333333333,
+			"stages": 6,
+			"world": 3
+		},
+		{
+			"baseline_seconds": 7.19166666666681,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.508333333333334,
+					0.733333333333333,
+					6.9666666666668,
+					7.19166666666681
+				],
+				"seconds": 7.30000000000015,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 6.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 31,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 7.52500000000016,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "Open On The Beat",
+			"par_seconds": 48.0,
+			"par_slack_seconds": 40.8083333333332,
+			"stages": 3,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 14.1583333333332,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					6.93333333333347,
+					7.15833333333348,
+					8.31666666666684,
+					8.54166666666682,
+					13.2999999999999,
+					13.5249999999999,
+					13.9499999999998,
+					14.1749999999998
+				],
+				"seconds": 14.2583333333332,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 6.93333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 1.0
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 4.66666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.233333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 32,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 23.591666666666,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Brass Interval",
+			"par_seconds": 51.0,
+			"par_slack_seconds": 36.8416666666668,
+			"stages": 4,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 4.225,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.466666666666667,
+					0.691666666666667,
+					0.899999999999999,
+					1.125,
+					3.39166666666666,
+					3.61666666666666,
+					3.96666666666666,
+					4.19166666666666
+				],
+				"seconds": 4.325,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.466666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 3,
+						"wait": 2.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 0.266666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 33,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.6416666666666,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Four Count",
+			"par_seconds": 52.0,
+			"par_slack_seconds": 47.775,
+			"stages": 4,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 9.88333333333341,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.46666666666668,
+					4.69166666666669,
+					5.83333333333341,
+					6.05833333333342,
+					8.9166666666668,
+					9.14166666666679,
+					9.61666666666676,
+					9.84166666666675
+				],
+				"seconds": 9.98333333333341,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 4.46666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.06666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 2.76666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.366666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 34,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.2500000000001,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Foundry Floor",
+			"par_seconds": 53.0,
+			"par_slack_seconds": 43.1166666666666,
+			"stages": 4,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 8.93333333333347,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.66666666666666,
+					2.89166666666666,
+					4.43333333333334,
+					4.65833333333335,
+					4.95000000000004,
+					5.17500000000005,
+					8.70000000000015,
+					8.92500000000013
+				],
+				"seconds": 9.04166666666679,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 2.66666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 1.33333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.2
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 3.36666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 35,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.5583333333331,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Hot Metal",
+			"par_seconds": 55.0,
+			"par_slack_seconds": 46.0666666666665,
+			"stages": 4,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 10.6833333333334,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.36666666666666,
+					2.59166666666666,
+					5.24166666666672,
+					5.46666666666673,
+					6.45000000000011,
+					6.67500000000012,
+					6.92500000000013,
+					7.15000000000015,
+					10.4583333333334,
+					10.6833333333334
+				],
+				"seconds": 10.7916666666667,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 2.36666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 2.53333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 0.8
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.166666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 3.16666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 36,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.3833333333333,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Clockwork Petals",
+			"par_seconds": 58.0,
+			"par_slack_seconds": 47.3166666666666,
+			"stages": 5,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 8.3333333333335,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.76666666666666,
+					1.99166666666666,
+					2.75833333333333,
+					2.98333333333333,
+					4.55833333333335,
+					4.78333333333336,
+					7.03333333333347,
+					7.25833333333348,
+					8.10000000000018,
+					8.32500000000017
+				],
+				"seconds": 8.4333333333335,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 1.76666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.6
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.36666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.16666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 0.7
+					}
+				],
+				"stars": 3
+			},
+			"id": 37,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.6333333333332,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Silent Strike",
+			"par_seconds": 57.0,
+			"par_slack_seconds": 48.6666666666665,
+			"stages": 5,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 13.6416666666665,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					7.40000000000016,
+					7.62500000000017,
+					10.0500000000001,
+					10.2750000000001,
+					10.9,
+					11.125,
+					12.6083333333333,
+					12.8333333333332,
+					13.3833333333332,
+					13.6083333333332
+				],
+				"seconds": 13.7416666666665,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 7.4
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 2.23333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 0.533333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 1.3
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.466666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 38,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.3999999999998,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Golden Measure",
+			"par_seconds": 59.0,
+			"par_slack_seconds": 45.3583333333335,
+			"stages": 5,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 10.9416666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.533333333333334,
+					0.758333333333333,
+					5.56666666666673,
+					5.79166666666674,
+					7.81666666666685,
+					8.04166666666685,
+					10.2666666666667,
+					10.4916666666667,
+					10.8,
+					11.025
+				],
+				"seconds": 11.1416666666667,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.533333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 4.7
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.86666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.13333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 39,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 18.3499999999996,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Pressure Valve",
+			"par_seconds": 61.0,
+			"par_slack_seconds": 50.0583333333333,
+			"stages": 5,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 11.1666666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.86666666666666,
+					4.09166666666666,
+					6.69166666666679,
+					6.9166666666668,
+					7.50000000000016,
+					7.72500000000017,
+					9.67500000000009,
+					9.90000000000008,
+					10.5666666666667,
+					10.7916666666667,
+					16.7999999999997,
+					17.0249999999997
+				],
+				"seconds": 17.1666666666663,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 3.86666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 2.46666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.4
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 1.86666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 5,
+						"wait": 0.5
+					},
+					{
+						"kind": "pulse",
+						"stage": 6,
+						"wait": 5.9
+					}
+				],
+				"stars": 3
+			},
+			"id": 40,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 17.058333333333,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "Pulse Foundry Finale",
+			"par_seconds": 65.0,
+			"par_slack_seconds": 53.8333333333333,
+			"stages": 6,
+			"world": 4
+		},
+		{
+			"baseline_seconds": 1.2,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					5.30833333333339,
+					5.5333333333334,
+					6.9666666666668,
+					7.19166666666681
+				],
+				"seconds": 7.30000000000015,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 4.76666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 1.3
+					}
+				],
+				"stars": 3
+			},
+			"id": 41,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 0,
+				"recovery": {
+					"checkpoint": 0,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 7.20833333333348,
+					"stars": 2
+				},
+				"stage": 1,
+				"status": "failed"
+			},
+			"name": "Two Clear Notes",
+			"par_seconds": 50.0,
+			"par_slack_seconds": 48.8,
+			"stages": 3,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 4.40000000000001,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.23333333333333,
+					1.45833333333333,
+					2.08333333333333,
+					2.30833333333333,
+					2.53333333333333,
+					2.84999999999999,
+					3.07499999999999,
+					4.08333333333333,
+					4.30833333333334
+				],
+				"seconds": 4.47500000000001,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 1.23333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.533333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.266666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 0.9
+					}
+				],
+				"stars": 3
+			},
+			"id": 42,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.3583333333334,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Relay Baton",
+			"par_seconds": 53.0,
+			"par_slack_seconds": 48.6,
+			"stages": 4,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 15.3499999999998,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					6.2000000000001,
+					6.42500000000011,
+					6.71666666666679,
+					6.9416666666668,
+					10.6,
+					10.825,
+					11.05,
+					15.0916666666665,
+					15.3166666666664
+				],
+				"seconds": 15.4499999999998,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 6.2
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 3.5
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 4.03333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 43,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 20.7999999999995,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Glass Stair",
+			"par_seconds": 55.0,
+			"par_slack_seconds": 39.6500000000002,
+			"stages": 4,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 9.69166666666676,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.70000000000002,
+					4.92500000000003,
+					7.14166666666681,
+					7.36666666666682,
+					7.59166666666683,
+					7.85833333333351,
+					8.08333333333352,
+					9.43333333333344,
+					9.65833333333343
+				],
+				"seconds": 9.80000000000008,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 4.7
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 2.1
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.2
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 1.26666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 44,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.7333333333333,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Passing Light",
+			"par_seconds": 56.0,
+			"par_slack_seconds": 46.3083333333332,
+			"stages": 4,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 7.57500000000017,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.53333333333332,
+					3.75833333333332,
+					3.98333333333332,
+					4.09999999999999,
+					4.325,
+					6.54166666666678,
+					6.76666666666679,
+					7.34166666666682,
+					7.56666666666683
+				],
+				"seconds": 7.68333333333351,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 3.53333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.366666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 45,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 7.91666666666685,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Double Refraction",
+			"par_seconds": 59.0,
+			"par_slack_seconds": 51.4249999999998,
+			"stages": 4,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 12.9416666666666,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					4.65000000000002,
+					4.87500000000003,
+					5.10000000000004,
+					6.64166666666679,
+					6.8666666666668,
+					7.83333333333351,
+					8.05833333333352,
+					12.5416666666666,
+					12.7666666666666,
+					12.9916666666666
+				],
+				"seconds": 13.0416666666666,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 4.16666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 1.53333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.833333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 4.4
+					}
+				],
+				"stars": 3
+			},
+			"id": 46,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 14.0083333333332,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Handoff Garden",
+			"par_seconds": 60.0,
+			"par_slack_seconds": 47.0583333333334,
+			"stages": 5,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 9.99166666666674,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.966666666666666,
+					1.19166666666666,
+					1.41666666666666,
+					2.24999999999999,
+					2.47499999999999,
+					4.2,
+					4.42500000000001,
+					5.44166666666673,
+					5.66666666666674,
+					5.89166666666675,
+					9.70833333333342,
+					9.93333333333341
+				],
+				"seconds": 10.0916666666667,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 0.966666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.8
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.53333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 3.8
+					}
+				],
+				"stars": 3
+			},
+			"id": 47,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 16.2749999999997,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Fragile Rhythm",
+			"par_seconds": 61.0,
+			"par_slack_seconds": 51.0083333333333,
+			"stages": 5,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 9.32500000000011,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					2.1,
+					2.32499999999999,
+					3.52499999999999,
+					3.74999999999999,
+					3.97499999999999,
+					4.60000000000002,
+					4.82500000000003,
+					8.95000000000013,
+					9.17500000000012,
+					9.40000000000011
+				],
+				"seconds": 9.42500000000011,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.56666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 1.03333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 0.566666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 4.03333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 48,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.3750000000001,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Relay Fork",
+			"par_seconds": 63.0,
+			"par_slack_seconds": 53.6749999999999,
+			"stages": 5,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 12.3749999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.9,
+					2.125,
+					5.93333333333342,
+					6.15833333333343,
+					7.74166666666684,
+					7.96666666666685,
+					14.0666666666665,
+					14.2916666666665,
+					14.5166666666665,
+					19.0333333333329,
+					19.2583333333329
+				],
+				"seconds": 19.4416666666662,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 1.9
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 3.6
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 1.36666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 5.96666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 4.5
+					}
+				],
+				"stars": 3
+			},
+			"id": 49,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 19.3499999999995,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Clear Span",
+			"par_seconds": 64.0,
+			"par_slack_seconds": 51.6250000000001,
+			"stages": 5,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 17.2249999999997,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.09999999999999,
+					4.325,
+					4.55000000000002,
+					6.37500000000011,
+					6.60000000000012,
+					9.61666666666676,
+					9.84166666666675,
+					13.4249999999999,
+					13.6499999999999,
+					13.8749999999999,
+					14.8999999999998,
+					15.1249999999998,
+					16.8666666666664,
+					17.0916666666663,
+					17.3166666666663
+				],
+				"seconds": 17.3249999999997,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 4.1
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 1.8
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 2.83333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 3.5
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 0.966666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 6,
+						"wait": 1.63333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 50,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 23.4833333333326,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "Glass Relay Finale",
+			"par_seconds": 68.0,
+			"par_slack_seconds": 50.7750000000003,
+			"stages": 6,
+			"world": 5
+		},
+		{
+			"baseline_seconds": 6.46666666666678,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					5.34166666666672,
+					5.56666666666673,
+					6.2500000000001,
+					6.47500000000011
+				],
+				"seconds": 6.56666666666678,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 4.93333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 0.566666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 51,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 2,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 6.78333333333346,
+					"stars": 3
+				},
+				"stage": 3,
+				"status": "complete"
+			},
+			"name": "Down Is Forward",
+			"par_seconds": 50.0,
+			"par_slack_seconds": 43.5333333333332,
+			"stages": 3,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 5.89166666666675,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					2.11666666666666,
+					2.34166666666666,
+					3.42499999999999,
+					3.64999999999999,
+					5.5833333333334,
+					5.80833333333341
+				],
+				"seconds": 5.99166666666675,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.0
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 1.8
+					}
+				],
+				"stars": 3
+			},
+			"id": 52,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 6.65833333333345,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "A Sky Below",
+			"par_seconds": 53.0,
+			"par_slack_seconds": 47.1083333333332,
+			"stages": 4,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 8.16666666666684,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.4,
+					0.625,
+					4.66666666666669,
+					4.8916666666667,
+					8.09166666666685,
+					8.31666666666684,
+					10.1666666666667,
+					10.3916666666667
+				],
+				"seconds": 10.5333333333334,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.4
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 3.93333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 3.03333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 1.76666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 53,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 10.4166666666667,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Inverted Bloom",
+			"par_seconds": 55.0,
+			"par_slack_seconds": 46.8333333333332,
+			"stages": 4,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 6.01666666666676,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.46666666666668,
+					4.69166666666669,
+					4.8666666666667,
+					5.09166666666671,
+					5.40000000000006,
+					5.62500000000007,
+					7.35833333333349,
+					7.5833333333335
+				],
+				"seconds": 7.69166666666684,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 4.46666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 1.6
+					}
+				],
+				"stars": 3
+			},
+			"id": 54,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 7.60000000000017,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Low Orbit",
+			"par_seconds": 56.0,
+			"par_slack_seconds": 49.9833333333332,
+			"stages": 4,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 6.80833333333346,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.29999999999999,
+					3.52499999999999,
+					4.70833333333336,
+					4.93333333333337,
+					6.11666666666676,
+					6.34166666666677,
+					6.60000000000012,
+					6.82500000000013
+				],
+				"seconds": 7.00833333333347,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 3.3
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 1.06666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 0.966666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 55,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 5,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 14.3666666666665,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Polarity Relay",
+			"par_seconds": 59.0,
+			"par_slack_seconds": 52.1916666666665,
+			"stages": 4,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 10.6916666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.4,
+					0.625,
+					2.33333333333333,
+					2.55833333333333,
+					3.08333333333333,
+					3.30833333333332,
+					8.10000000000018,
+					8.32500000000017,
+					8.55000000000016,
+					10.4333333333334,
+					10.6583333333334
+				],
+				"seconds": 10.7916666666667,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.4
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 1.56666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.433333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 4.6
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 1.86666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 56,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 0,
+				"recovery": {
+					"checkpoint": 0,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 17.6749999999996,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Turn The Compass",
+			"par_seconds": 60.0,
+			"par_slack_seconds": 49.3083333333333,
+			"stages": 5,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 7.69166666666684,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.13333333333333,
+					1.35833333333333,
+					1.76666666666666,
+					1.99166666666666,
+					4.60833333333335,
+					4.83333333333336,
+					5.10000000000004,
+					5.32500000000005,
+					7.47500000000016,
+					7.70000000000017
+				],
+				"seconds": 7.79166666666684,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 1.13333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.2
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 2.53333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 2.03333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 57,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.5166666666666,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Falling Lantern",
+			"par_seconds": 62.0,
+			"par_slack_seconds": 54.3083333333332,
+			"stages": 5,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 11.5583333333333,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.533333333333334,
+					0.758333333333333,
+					0.983333333333332,
+					4.87500000000003,
+					5.10000000000004,
+					10.1416666666667,
+					10.3666666666667,
+					11.3166666666667,
+					11.5416666666667
+				],
+				"seconds": 11.6583333333333,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 3.83333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 4.96666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 5,
+						"wait": 0.766666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 58,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 17.7749999999996,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "North Of Nowhere",
+			"par_seconds": 63.0,
+			"par_slack_seconds": 51.4416666666667,
+			"stages": 5,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 13.4916666666665,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.96666666666666,
+					4.19166666666666,
+					5.10833333333338,
+					5.33333333333339,
+					5.71666666666674,
+					5.94166666666675,
+					8.98333333333346,
+					9.20833333333345,
+					13.1333333333332,
+					13.3583333333332,
+					13.5833333333332
+				],
+				"seconds": 13.5916666666665,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 3.96666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 0.733333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.3
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 2.9
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 3.73333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 59,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 20.1333333333328,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "False Horizon",
+			"par_seconds": 65.0,
+			"par_slack_seconds": 51.5083333333335,
+			"stages": 5,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 8.55000000000016,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.63333333333332,
+					3.85833333333332,
+					4.325,
+					4.55000000000002,
+					10.1000000000001,
+					10.3250000000001,
+					12.7749999999999,
+					12.9999999999999,
+					13.2583333333332,
+					13.4833333333332,
+					15.8916666666664,
+					16.1166666666664
+				],
+				"seconds": 16.2833333333331,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 3.63333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.333333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 5.36666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 2.23333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 6,
+						"wait": 2.3
+					}
+				],
+				"stars": 3
+			},
+			"id": 60,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 13.3999999999999,
+					"stars": 2
+				},
+				"stage": 5,
+				"status": "failed"
+			},
+			"name": "Inverse Sky Finale",
+			"par_seconds": 69.0,
+			"par_slack_seconds": 60.4499999999998,
+			"stages": 6,
+			"world": 6
+		},
+		{
+			"baseline_seconds": 9.65000000000009,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					4.98333333333337,
+					5.20833333333338,
+					8.56666666666682,
+					8.79166666666681,
+					9.34166666666678,
+					9.56666666666676
+				],
+				"seconds": 9.75000000000009,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 4.56666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 3.2
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.433333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 61,
+			"jitter": {
+				"100": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.4000000000001,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Cinder Index",
+			"par_seconds": 56.0,
+			"par_slack_seconds": 46.3499999999999,
+			"stages": 4,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 11.2166666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					5.20000000000005,
+					5.42500000000006,
+					6.64166666666679,
+					6.8666666666668,
+					10.4083333333334,
+					10.6333333333334,
+					10.8583333333334,
+					12.2249999999999,
+					12.4499999999999
+				],
+				"seconds": 12.5833333333333,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 5.2
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 1.0
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 3.43333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 1.3
+					}
+				],
+				"stars": 3
+			},
+			"id": 62,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 12.6333333333333,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Borrowed Flame",
+			"par_seconds": 58.0,
+			"par_slack_seconds": 46.7833333333333,
+			"stages": 4,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 7.39166666666682,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.233333333333333,
+					0.458333333333334,
+					6.06666666666676,
+					6.29166666666677,
+					9.13333333333346,
+					9.35833333333344,
+					12.8583333333332,
+					13.0833333333332
+				],
+				"seconds": 13.1916666666666,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.233333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 5.53333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 2.63333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 3.36666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 63,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 13.0916666666666,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Emberline",
+			"par_seconds": 59.0,
+			"par_slack_seconds": 51.6083333333332,
+			"stages": 4,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 7.04166666666681,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.36666666666666,
+					1.59166666666666,
+					1.83333333333333,
+					2.05833333333333,
+					2.24999999999999,
+					2.47499999999999,
+					5.85833333333341,
+					6.08333333333343,
+					6.83333333333346,
+					7.05833333333347
+				],
+				"seconds": 7.14166666666681,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 1.36666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 3.2
+					},
+					{
+						"kind": "ring",
+						"stage": 5,
+						"wait": 0.633333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 64,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 7.69166666666684,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Copper Page",
+			"par_seconds": 61.0,
+			"par_slack_seconds": 53.9583333333332,
+			"stages": 5,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 11.425,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.43333333333333,
+					1.65833333333333,
+					3.29999999999999,
+					3.52499999999999,
+					5.51666666666673,
+					5.74166666666674,
+					6.93333333333347,
+					7.15833333333348,
+					7.38333333333349,
+					11.1666666666667,
+					11.3916666666667
+				],
+				"seconds": 11.525,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 1.43333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 1.43333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.8
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 1.03333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 3.76666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 65,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 17.4166666666663,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Ash Pendulum",
+			"par_seconds": 63.0,
+			"par_slack_seconds": 51.575,
+			"stages": 5,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 3.68333333333332,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.5,
+					1.725,
+					1.93333333333333,
+					2.15833333333333,
+					7.42500000000016,
+					7.65000000000017,
+					7.87500000000018,
+					10.6833333333334,
+					10.9083333333334,
+					16.308333333333,
+					16.533333333333
+				],
+				"seconds": 16.7249999999997,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 1.5
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 5.1
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 2.8
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 5.26666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 66,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.0250000000001,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Archive Key",
+			"par_seconds": 64.0,
+			"par_slack_seconds": 60.3166666666667,
+			"stages": 5,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 8.23333333333351,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.7,
+					0.924999999999999,
+					1.375,
+					1.6,
+					4.25,
+					4.47500000000001,
+					4.70000000000002,
+					5.68333333333341,
+					5.90833333333342,
+					7.95000000000018,
+					8.17500000000018
+				],
+				"seconds": 8.3333333333335,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 0.7
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 0.266666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 2.56666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 1.93333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 67,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.4833333333332,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Smoldering Shelf",
+			"par_seconds": 65.0,
+			"par_slack_seconds": 56.7666666666665,
+			"stages": 5,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 7.90833333333352,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.516666666666667,
+					0.741666666666666,
+					4.73333333333336,
+					4.95833333333337,
+					6.07500000000009,
+					6.3000000000001,
+					7.4833333333335,
+					7.70833333333351,
+					7.93333333333352
+				],
+				"seconds": 8.01666666666685,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "ring",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 3.8
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 1.0
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 1.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 68,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 9,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.3166666666664,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "A Note In Fire",
+			"par_seconds": 67.0,
+			"par_slack_seconds": 59.0916666666665,
+			"stages": 5,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 10.5333333333334,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.16666666666666,
+					4.39166666666667,
+					4.93333333333337,
+					5.15833333333338,
+					7.35833333333349,
+					7.5833333333335,
+					7.79166666666684,
+					8.01666666666685,
+					9.45833333333344,
+					9.68333333333342,
+					10.3166666666667,
+					10.5416666666667
+				],
+				"seconds": 10.6333333333334,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 4.16666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.333333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 1.23333333333333
+					},
+					{
+						"kind": "slide",
+						"stage": 6,
+						"wait": 0.5
+					}
+				],
+				"stars": 3
+			},
+			"id": 69,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 14.8749999999998,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "playing"
+			},
+			"name": "Last Reading",
+			"par_seconds": 68.0,
+			"par_slack_seconds": 57.4666666666666,
+			"stages": 6,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 10.725,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.13333333333333,
+					1.35833333333333,
+					1.59166666666666,
+					1.81666666666666,
+					2.04166666666666,
+					5.02500000000004,
+					5.25000000000005,
+					8.76666666666681,
+					8.9916666666668,
+					10.8166666666667,
+					11.0416666666667,
+					11.35,
+					11.575,
+					16.0666666666664,
+					16.2916666666664,
+					16.5166666666664
+				],
+				"seconds": 16.5249999999997,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 1.13333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 2.9
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 3.43333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 1.66666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 6,
+						"wait": 0.2
+					},
+					{
+						"kind": "chain",
+						"stage": 7,
+						"wait": 4.3
+					}
+				],
+				"stars": 3
+			},
+			"id": 70,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 16.433333333333,
+					"stars": 2
+				},
+				"stage": 4,
+				"status": "failed"
+			},
+			"name": "Ember Archive Finale",
+			"par_seconds": 73.0,
+			"par_slack_seconds": 62.275,
+			"stages": 7,
+			"world": 7
+		},
+		{
+			"baseline_seconds": 8.10833333333351,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.55,
+					1.75,
+					1.975,
+					3.79166666666666,
+					4.01666666666666,
+					7.88333333333351,
+					8.10833333333351
+				],
+				"seconds": 8.21666666666684,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 1.13333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 1.73333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 3.73333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 71,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 8,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 7,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.3333333333332,
+					"stars": 3
+				},
+				"stage": 4,
+				"status": "complete"
+			},
+			"name": "Antechamber",
+			"par_seconds": 59.0,
+			"par_slack_seconds": 50.8916666666665,
+			"stages": 4,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 8.8666666666668,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.2,
+					4.42500000000001,
+					6.2500000000001,
+					6.47500000000011,
+					7.30000000000015,
+					7.52500000000016,
+					8.14166666666685,
+					8.36666666666683,
+					8.62500000000015,
+					8.85000000000014
+				],
+				"seconds": 9.06666666666679,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 4.2
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 1.73333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.633333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.5
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 72,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 14.3333333333332,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Ion Choir",
+			"par_seconds": 61.0,
+			"par_slack_seconds": 52.1333333333332,
+			"stages": 5,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 13.1249999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.33333333333333,
+					1.55833333333333,
+					4.43333333333334,
+					4.65833333333335,
+					9.03333333333346,
+					9.25833333333345,
+					11.55,
+					11.775,
+					12.8166666666666,
+					13.0416666666666
+				],
+				"seconds": 13.2249999999999,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 1.33333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 2.66666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 4.16666666666667
+					},
+					{
+						"kind": "ring",
+						"stage": 4,
+						"wait": 2.13333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 0.933333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 73,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 0,
+				"recovery": {
+					"checkpoint": 0,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 13.1333333333332,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Vaulted Ascent",
+			"par_seconds": 63.0,
+			"par_slack_seconds": 49.8750000000001,
+			"stages": 5,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 3.64999999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.733333333333333,
+					0.958333333333332,
+					3.74166666666666,
+					3.96666666666666,
+					7.46666666666683,
+					7.69166666666684,
+					7.91666666666685,
+					9.15833333333345,
+					9.38333333333344,
+					9.6000000000001,
+					9.82500000000008
+				],
+				"seconds": 10.0166666666667,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.733333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 2.66666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 3.33333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 1.23333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 0.133333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 74,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 9.94166666666674,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Luminous Nave",
+			"par_seconds": 64.0,
+			"par_slack_seconds": 60.35,
+			"stages": 5,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 10.1916666666667,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.333333333333334,
+					0.558333333333334,
+					3.86666666666666,
+					4.09166666666666,
+					4.31666666666667,
+					6.54166666666678,
+					6.76666666666679,
+					11.175,
+					11.4,
+					15.0833333333331,
+					15.3083333333331,
+					15.5333333333331
+				],
+				"seconds": 15.5583333333331,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.333333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 3.2
+					},
+					{
+						"kind": "slide",
+						"stage": 3,
+						"wait": 2.16666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 4.33333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 3.5
+					}
+				],
+				"stars": 3
+			},
+			"id": 75,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.4416666666664,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Crossing Wires",
+			"par_seconds": 66.0,
+			"par_slack_seconds": 55.8083333333333,
+			"stages": 5,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 6.75000000000013,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.63333333333333,
+					1.85833333333333,
+					3.49166666666666,
+					3.71666666666666,
+					5.20000000000005,
+					5.42500000000006,
+					6.03333333333342,
+					6.25833333333343,
+					6.49166666666678,
+					6.71666666666679,
+					6.9416666666668
+				],
+				"seconds": 6.95000000000014,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 1.46666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 1.4
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.4
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 76,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 10,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.5916666666666,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Quiet Voltage",
+			"par_seconds": 67.0,
+			"par_slack_seconds": 60.2499999999999,
+			"stages": 5,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 12.8999999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.666666666666667,
+					0.891666666666666,
+					1.31666666666666,
+					1.54166666666666,
+					5.73333333333341,
+					5.95833333333342,
+					6.18333333333343,
+					8.63333333333348,
+					8.85833333333347,
+					12.5166666666666,
+					12.7416666666666,
+					12.9666666666666
+				],
+				"seconds": 12.9999999999999,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 0.666666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 0.233333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 4.03333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 2.36666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 3.56666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 77,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.8666666666665,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Cathedral Steps",
+			"par_seconds": 68.0,
+			"par_slack_seconds": 55.1000000000001,
+			"stages": 5,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 13.9249999999999,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					4.2,
+					4.42500000000001,
+					6.2000000000001,
+					6.42500000000011,
+					8.10000000000018,
+					8.32500000000017,
+					12.8416666666666,
+					13.0666666666666,
+					13.2749999999999,
+					13.4999999999999,
+					13.7666666666665,
+					13.9916666666665,
+					14.2166666666665
+				],
+				"seconds": 14.2249999999998,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 4.2
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.46666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 4.43333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 6,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 78,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 19.1666666666662,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "Glass Canticle",
+			"par_seconds": 70.0,
+			"par_slack_seconds": 56.0750000000002,
+			"stages": 6,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 9.00833333333346,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.33333333333332,
+					3.55833333333332,
+					4.14166666666666,
+					4.36666666666667,
+					4.68333333333336,
+					4.90833333333337,
+					5.14166666666671,
+					5.36666666666672,
+					6.69166666666679,
+					6.9166666666668,
+					8.72500000000015,
+					8.95000000000013
+				],
+				"seconds": 9.10833333333346,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 3.33333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.4
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 1.13333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 6,
+						"wait": 1.7
+					}
+				],
+				"stars": 3
+			},
+			"id": 79,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 13.8416666666665,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Signal Spire",
+			"par_seconds": 72.0,
+			"par_slack_seconds": 62.9916666666665,
+			"stages": 6,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 9.15000000000012,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.86666666666666,
+					3.09166666666666,
+					4.325,
+					4.55000000000002,
+					4.77500000000003,
+					4.95833333333337,
+					5.18333333333338,
+					6.66666666666679,
+					6.8916666666668,
+					7.51666666666683,
+					7.74166666666684,
+					10.4166666666667,
+					10.6416666666667,
+					13.6333333333332,
+					13.8583333333332,
+					14.0833333333332
+				],
+				"seconds": 14.0916666666665,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 2.86666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 1.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 1.4
+					},
+					{
+						"kind": "slide",
+						"stage": 5,
+						"wait": 0.466666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 6,
+						"wait": 2.56666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 7,
+						"wait": 2.8
+					}
+				],
+				"stars": 3
+			},
+			"id": 80,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 6,
+				"recovery": {
+					"checkpoint": 6,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 9.60833333333343,
+					"stars": 3
+				},
+				"stage": 7,
+				"status": "complete"
+			},
+			"name": "Ion Cathedral Finale",
+			"par_seconds": 76.0,
+			"par_slack_seconds": 66.8499999999999,
+			"stages": 7,
+			"world": 8
+		},
+		{
+			"baseline_seconds": 4.51666666666668,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					1.33333333333333,
+					1.55833333333333,
+					2.87499999999999,
+					3.09999999999999,
+					3.53333333333332,
+					3.75833333333332,
+					3.98333333333332,
+					4.09999999999999,
+					4.325
+				],
+				"seconds": 4.49166666666668,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.8
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 1.23333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 0.3
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 81,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 2,
+				"recovery": {
+					"checkpoint": 2,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.0000000000001,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Soft Contradiction",
+			"par_seconds": 62.0,
+			"par_slack_seconds": 57.4833333333333,
+			"stages": 5,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 7.6583333333335,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.633333333333334,
+					0.858333333333333,
+					2.29999999999999,
+					2.52499999999999,
+					2.80833333333333,
+					3.03333333333333,
+					3.34999999999999,
+					3.57499999999999,
+					7.41666666666683,
+					7.64166666666684
+				],
+				"seconds": 7.75833333333351,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.633333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 1.33333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 3.7
+					}
+				],
+				"stars": 3
+			},
+			"id": 82,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.4999999999999,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "Second Thought",
+			"par_seconds": 64.0,
+			"par_slack_seconds": 56.3416666666665,
+			"stages": 5,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 6.98333333333347,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.93333333333333,
+					3.15833333333332,
+					4.65000000000002,
+					4.87500000000003,
+					5.10000000000004,
+					6.73333333333346,
+					6.95833333333347,
+					10.9333333333334,
+					11.1583333333333,
+					12.1,
+					12.3249999999999
+				],
+				"seconds": 12.4583333333333,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 2.93333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 1.4
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 1.56666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 3.9
+					},
+					{
+						"kind": "slide",
+						"stage": 5,
+						"wait": 0.733333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 83,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 0,
+				"recovery": {
+					"checkpoint": 0,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 18.4083333333329,
+					"stars": 2
+				},
+				"stage": 2,
+				"status": "failed"
+			},
+			"name": "Velvet Descent",
+			"par_seconds": 66.0,
+			"par_slack_seconds": 59.0166666666665,
+			"stages": 5,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 7.15833333333348,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.59999999999999,
+					2.82499999999999,
+					3.69999999999999,
+					3.92499999999999,
+					4.15,
+					5.83333333333341,
+					6.05833333333342,
+					6.35000000000011,
+					6.57500000000012,
+					6.75833333333346,
+					6.98333333333347,
+					7.20833333333348
+				],
+				"seconds": 7.23333333333348,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 2.6
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.766666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 84,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 11.65,
+					"stars": 3
+				},
+				"stage": 5,
+				"status": "complete"
+			},
+			"name": "The Other Beat",
+			"par_seconds": 67.0,
+			"par_slack_seconds": 59.8416666666665,
+			"stages": 5,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 11.65,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					1.83333333333333,
+					2.05833333333333,
+					3.01666666666666,
+					3.24166666666666,
+					4.09999999999999,
+					4.325,
+					5.35000000000006,
+					5.57500000000007,
+					8.31666666666684,
+					8.54166666666682,
+					11.4416666666667,
+					11.6666666666666
+				],
+				"seconds": 11.75,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 1.83333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 0.766666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.666666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 4,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 2.53333333333333
+					},
+					{
+						"kind": "ring",
+						"stage": 6,
+						"wait": 2.76666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 85,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 15.4499999999998,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Folded Distance",
+			"par_seconds": 69.0,
+			"par_slack_seconds": 57.35,
+			"stages": 6,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 10.7333333333334,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					3.51666666666666,
+					3.74166666666666,
+					4.76666666666669,
+					4.9916666666667,
+					5.77500000000008,
+					6.00000000000009,
+					6.61666666666679,
+					6.8416666666668,
+					10.4416666666667,
+					10.6666666666667
+				],
+				"seconds": 10.8333333333334,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 3.03333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 0.6
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.4
+					},
+					{
+						"kind": "reverse",
+						"stage": 6,
+						"wait": 3.46666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 86,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 11.3166666666667,
+					"stars": 2
+				},
+				"stage": 4,
+				"status": "failed"
+			},
+			"name": "Color Of Silence",
+			"par_seconds": 70.0,
+			"par_slack_seconds": 59.2666666666666,
+			"stages": 6,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 12.3583333333333,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.433333333333334,
+					0.658333333333333,
+					1.4,
+					1.625,
+					1.85,
+					4.60000000000002,
+					4.82500000000003,
+					7.66666666666684,
+					7.89166666666685,
+					11.3166666666667,
+					11.5416666666667,
+					11.7666666666666,
+					11.9,
+					12.125
+				],
+				"seconds": 12.3333333333333,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 0.433333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.666666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 2.66666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.73333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 3.26666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 6,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 87,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 4,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 16.9666666666663,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Paradox Pocket",
+			"par_seconds": 72.0,
+			"par_slack_seconds": 59.6416666666667,
+			"stages": 6,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 11.05,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.46666666666666,
+					3.69166666666666,
+					3.91666666666666,
+					5.29166666666672,
+					5.51666666666673,
+					6.80833333333346,
+					7.03333333333347,
+					7.25833333333348,
+					9.85000000000008,
+					10.0750000000001,
+					10.2583333333334,
+					10.4833333333334,
+					10.7166666666667,
+					10.9416666666667
+				],
+				"seconds": 11.125,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 3.46666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 1.36666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 1.1
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.53333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 6,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 88,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.6499999999998,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "Twice Reflected",
+			"par_seconds": 73.0,
+			"par_slack_seconds": 61.95,
+			"stages": 6,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 8.65000000000015,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.333333333333334,
+					0.558333333333334,
+					0.908333333333333,
+					1.13333333333333,
+					3.07499999999999,
+					3.29999999999999,
+					4.51666666666668,
+					4.74166666666669,
+					4.9666666666667,
+					6.66666666666679,
+					6.8916666666668,
+					7.08333333333348,
+					7.30833333333349,
+					8.40000000000016,
+					8.62500000000015
+				],
+				"seconds": 8.75833333333348,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.333333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 0.233333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 1.73333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 4,
+						"wait": 1.13333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 1.63333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 6,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 7,
+						"wait": 0.933333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 89,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 6,
+				"recovery": {
+					"checkpoint": 6,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 10.7083333333334,
+					"stars": 3
+				},
+				"stage": 7,
+				"status": "complete"
+			},
+			"name": "Unwritten Horizon",
+			"par_seconds": 75.0,
+			"par_slack_seconds": 66.3499999999999,
+			"stages": 7,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 12.3083333333333,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.73333333333333,
+					2.95833333333333,
+					4.20833333333333,
+					4.43333333333334,
+					6.55000000000012,
+					6.77500000000013,
+					7.00000000000014,
+					9.10000000000012,
+					9.32500000000011,
+					14.5333333333331,
+					14.7583333333331,
+					15.2333333333331,
+					15.4583333333331,
+					15.8833333333331,
+					16.1083333333331,
+					16.333333333333
+				],
+				"seconds": 16.3416666666664,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 2.73333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 1.06666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.06666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 5.0
+					},
+					{
+						"kind": "reverse",
+						"stage": 6,
+						"wait": 0.366666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 7,
+						"wait": 0.266666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 90,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 20.1916666666662,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Velvet Paradox Finale",
+			"par_seconds": 79.0,
+			"par_slack_seconds": 66.6916666666667,
+			"stages": 7,
+			"world": 9
+		},
+		{
+			"baseline_seconds": 8.9666666666668,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					0.55,
+					1.55,
+					1.775,
+					3.89166666666666,
+					4.11666666666666,
+					7.05000000000014,
+					7.27500000000015,
+					8.58333333333349,
+					8.80833333333347,
+					10.2500000000001,
+					10.475
+				],
+				"seconds": 10.5666666666667,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 2,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.8
+					},
+					{
+						"kind": "pendulum",
+						"stage": 5,
+						"wait": 1.2
+					},
+					{
+						"kind": "slide",
+						"stage": 6,
+						"wait": 1.23333333333333
+					}
+				],
+				"stars": 3
+			},
+			"id": 91,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.4499999999999,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "Beyond The Spectrum",
+			"par_seconds": 66.0,
+			"par_slack_seconds": 57.0333333333332,
+			"stages": 6,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 8.41666666666683,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.13333333333332,
+					3.35833333333332,
+					3.57499999999999,
+					3.79999999999999,
+					5.35833333333339,
+					5.5833333333334,
+					5.80833333333341,
+					6.10000000000009,
+					6.3250000000001,
+					7.55000000000017,
+					7.77500000000018,
+					7.96666666666685,
+					8.19166666666684
+				],
+				"seconds": 8.37500000000017,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 3.13333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 0.133333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 1.36666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.266666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 1.06666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 6,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 92,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 2,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 6,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 12.4583333333333,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "White Noise",
+			"par_seconds": 68.0,
+			"par_slack_seconds": 59.5833333333332,
+			"stages": 6,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 6.00833333333342,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.166666666666667,
+					0.391666666666667,
+					0.6,
+					0.825,
+					3.42499999999999,
+					3.64999999999999,
+					5.60000000000007,
+					5.82500000000008,
+					9.82500000000008,
+					10.0500000000001,
+					13.6583333333332,
+					13.8833333333332
+				],
+				"seconds": 13.9749999999998,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.166666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 2.43333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 1.73333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 5,
+						"wait": 3.86666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 6,
+						"wait": 3.4
+					}
+				],
+				"stars": 3
+			},
+			"id": 93,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 13.8833333333332,
+					"stars": 2
+				},
+				"stage": 3,
+				"status": "failed"
+			},
+			"name": "Spectrum Memory",
+			"par_seconds": 70.0,
+			"par_slack_seconds": 63.9916666666666,
+			"stages": 6,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 11.525,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					2.23333333333333,
+					2.45833333333333,
+					4.85000000000003,
+					5.07500000000004,
+					9.12500000000012,
+					9.35000000000011,
+					9.5750000000001,
+					10.5666666666667,
+					10.7916666666667,
+					13.8833333333332,
+					14.1083333333332,
+					15.0833333333331,
+					15.3083333333331,
+					15.5333333333331
+				],
+				"seconds": 15.5583333333331,
+				"stages": [
+					{
+						"kind": "chain",
+						"stage": 1,
+						"wait": 2.23333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 2,
+						"wait": 2.2
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 3.86666666666667
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 3.0
+					},
+					{
+						"kind": "chain",
+						"stage": 6,
+						"wait": 0.766666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 94,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.4833333333331,
+					"stars": 3
+				},
+				"stage": 6,
+				"status": "complete"
+			},
+			"name": "Horizon Relay",
+			"par_seconds": 72.0,
+			"par_slack_seconds": 60.475,
+			"stages": 6,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 4.88333333333337,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.233333333333333,
+					0.458333333333334,
+					2.27499999999999,
+					2.49999999999999,
+					2.75833333333333,
+					2.98333333333333,
+					3.29166666666666,
+					3.51666666666666,
+					4.55833333333335,
+					4.78333333333336,
+					8.12500000000018,
+					8.35000000000017,
+					8.57500000000015
+				],
+				"seconds": 8.58333333333349,
+				"stages": [
+					{
+						"kind": "slide",
+						"stage": 1,
+						"wait": 0.233333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 1.73333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 0.1
+					},
+					{
+						"kind": "pendulum",
+						"stage": 4,
+						"wait": 0.1
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.933333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 6,
+						"wait": 3.2
+					}
+				],
+				"stars": 3
+			},
+			"id": 95,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 8.48333333333349,
+					"stars": 2
+				},
+				"stage": 4,
+				"status": "failed"
+			},
+			"name": "Clearer Than Light",
+			"par_seconds": 73.0,
+			"par_slack_seconds": 68.1166666666666,
+			"stages": 6,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 8.18333333333351,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.466666666666667,
+					0.691666666666667,
+					1.21666666666666,
+					1.44166666666666,
+					2.69166666666666,
+					2.91666666666666,
+					5.95000000000009,
+					6.1750000000001,
+					7.00833333333347,
+					7.23333333333348,
+					7.92500000000018,
+					8.15000000000018,
+					8.45833333333349,
+					8.68333333333348
+				],
+				"seconds": 8.79166666666681,
+				"stages": [
+					{
+						"kind": "pendulum",
+						"stage": 1,
+						"wait": 0.466666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.333333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 3,
+						"wait": 1.03333333333333
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 2.9
+					},
+					{
+						"kind": "switch",
+						"stage": 5,
+						"wait": 0.666666666666667
+					},
+					{
+						"kind": "slide",
+						"stage": 6,
+						"wait": 0.6
+					},
+					{
+						"kind": "ring",
+						"stage": 7,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 96,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 11.4916666666667,
+					"stars": 2
+				},
+				"stage": 4,
+				"status": "failed"
+			},
+			"name": "The Last Switch",
+			"par_seconds": 75.0,
+			"par_slack_seconds": 66.8166666666665,
+			"stages": 7,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 12.9583333333332,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": false,
+				"kind": "pendulum",
+				"schedule": [
+					0.4,
+					0.625,
+					1.25,
+					1.475,
+					4.18333333333333,
+					4.40833333333334,
+					4.63333333333335
+				],
+				"seconds": 4.66666666666669,
+				"stage": 4,
+				"stages": [
+					{
+						"kind": "reverse",
+						"stage": 1,
+						"wait": 0.4
+					},
+					{
+						"kind": "pulse",
+						"stage": 2,
+						"wait": 0.533333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 3,
+						"wait": 2.5
+					}
+				],
+				"stars": 3
+			},
+			"id": 97,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 6,
+				"recovery": {
+					"checkpoint": 6,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 13.3416666666666,
+					"stars": 3
+				},
+				"stage": 7,
+				"status": "complete"
+			},
+			"name": "No Fixed Rhythm",
+			"par_seconds": 77.0,
+			"par_slack_seconds": 64.0416666666668,
+			"stages": 7,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 8.3833333333335,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					0.1,
+					0.325,
+					1.275,
+					1.5,
+					3.61666666666666,
+					3.84166666666666,
+					4.25,
+					4.47500000000001,
+					4.68333333333336,
+					4.90833333333337,
+					5.28333333333339,
+					5.5083333333334,
+					8.02500000000019,
+					8.25000000000017,
+					8.47500000000016
+				],
+				"seconds": 8.48333333333349,
+				"stages": [
+					{
+						"kind": "ring",
+						"stage": 1,
+						"wait": 0.1
+					},
+					{
+						"kind": "slide",
+						"stage": 2,
+						"wait": 0.766666666666667
+					},
+					{
+						"kind": "pendulum",
+						"stage": 3,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 4,
+						"wait": 0.266666666666667
+					},
+					{
+						"kind": "pulse",
+						"stage": 5,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 6,
+						"wait": 0.166666666666667
+					},
+					{
+						"kind": "chain",
+						"stage": 7,
+						"wait": 2.4
+					}
+				],
+				"stars": 3
+			},
+			"id": 98,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 6,
+				"recovery": {
+					"checkpoint": 6,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 8.84166666666681,
+					"stars": 3
+				},
+				"stage": 7,
+				"status": "complete"
+			},
+			"name": "A Hundred Dawns",
+			"par_seconds": 78.0,
+			"par_slack_seconds": 69.6166666666665,
+			"stages": 7,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 14.6333333333331,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": true,
+				"schedule": [
+					3.33333333333332,
+					3.55833333333332,
+					5.88333333333342,
+					6.10833333333343,
+					6.68333333333346,
+					6.90833333333347,
+					8.57500000000015,
+					8.80000000000014,
+					11.2166666666667,
+					11.4416666666667,
+					11.6666666666666,
+					13.7583333333332,
+					13.9833333333332,
+					14.1749999999998,
+					14.3999999999998
+				],
+				"seconds": 14.6083333333331,
+				"stages": [
+					{
+						"kind": "pulse",
+						"stage": 1,
+						"wait": 3.33333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 2.13333333333333
+					},
+					{
+						"kind": "switch",
+						"stage": 3,
+						"wait": 0.366666666666667
+					},
+					{
+						"kind": "reverse",
+						"stage": 4,
+						"wait": 1.53333333333333
+					},
+					{
+						"kind": "chain",
+						"stage": 5,
+						"wait": 2.23333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 6,
+						"wait": 2.03333333333333
+					},
+					{
+						"kind": "pendulum",
+						"stage": 7,
+						"wait": 0.1
+					}
+				],
+				"stars": 3
+			},
+			"id": 99,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 3,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 6,
+				"recovery": {
+					"checkpoint": 6,
+					"complete": true,
+					"deaths": 0,
+					"preserved": true,
+					"seconds": 15.8666666666664,
+					"stars": 3
+				},
+				"stage": 7,
+				"status": "complete"
+			},
+			"name": "The Open Horizon",
+			"par_seconds": 80.0,
+			"par_slack_seconds": 65.3666666666669,
+			"stages": 7,
+			"world": 10
+		},
+		{
+			"baseline_seconds": 6.3000000000001,
+			"baseline_stars": 3,
+			"centered_100ms_launch_route": {
+				"complete": false,
+				"kind": "pendulum",
+				"schedule": [
+					0.7,
+					0.924999999999999,
+					1.18333333333333,
+					1.40833333333333,
+					1.63333333333333,
+					1.86666666666666,
+					2.09166666666666,
+					4.44166666666668,
+					4.66666666666669
+				],
+				"seconds": 4.83333333333336,
+				"stage": 5,
+				"stages": [
+					{
+						"kind": "switch",
+						"stage": 1,
+						"wait": 0.7
+					},
+					{
+						"kind": "chain",
+						"stage": 2,
+						"wait": 0.1
+					},
+					{
+						"kind": "reverse",
+						"stage": 3,
+						"wait": 0.133333333333333
+					},
+					{
+						"kind": "pulse",
+						"stage": 4,
+						"wait": 2.26666666666667
+					}
+				],
+				"stars": 3
+			},
+			"id": 100,
+			"jitter": {
+				"100": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 0,
+					"independent_trials": 10
+				},
+				"25": {
+					"alternating_passes": 1,
+					"alternating_trials": 2,
+					"global_shift_passes": 1,
+					"global_shift_trials": 2,
+					"independent_passes": 2,
+					"independent_trials": 10
+				},
+				"50": {
+					"alternating_passes": 0,
+					"alternating_trials": 2,
+					"global_shift_passes": 0,
+					"global_shift_trials": 2,
+					"independent_passes": 1,
+					"independent_trials": 10
+				}
+			},
+			"missed_middle_tap": {
+				"checkpoint": 3,
+				"recovery": {
+					"checkpoint": 3,
+					"complete": true,
+					"deaths": 1,
+					"preserved": true,
+					"seconds": 12.9166666666666,
+					"stars": 2
+				},
+				"stage": 4,
+				"status": "failed"
+			},
+			"name": "Chromatic Rush",
+			"par_seconds": 84.0,
+			"par_slack_seconds": 77.6999999999999,
+			"stages": 7,
+			"world": 10
+		}
+	],
+	"method": "Actual production RunState; exact timestamped input perturbations; fixed 120 Hz steps",
+	"runtime_ms": 37761,
+	"search_candidates": 42024,
+	"summary": {
+		"baseline_failures": 0,
+		"centered_100ms_launch_routes": 98,
+		"checkpoint_recoveries": 100,
+		"checkpoint_statistics_preserved": 100,
+		"jitter": {
+			"100": {
+				"alternating_passes": 12,
+				"alternating_trials": 200,
+				"global_shift_passes": 83,
+				"global_shift_trials": 200,
+				"independent_passes": 122,
+				"independent_trials": 1000
+			},
+			"25": {
+				"alternating_passes": 89,
+				"alternating_trials": 200,
+				"global_shift_passes": 97,
+				"global_shift_trials": 200,
+				"independent_passes": 316,
+				"independent_trials": 1000
+			},
+			"50": {
+				"alternating_passes": 66,
+				"alternating_trials": 200,
+				"global_shift_passes": 89,
+				"global_shift_trials": 200,
+				"independent_passes": 184,
+				"independent_trials": 1000
+			}
+		},
+		"levels": 100
+	},
+	"worlds": [
+		{
+			"centered_100ms_routes": 10,
+			"id": 1.0,
+			"mean_par_seconds": 42.0,
+			"mean_par_slack_seconds": 34.8758333333333,
+			"mean_searched_seconds": 7.12416666666672,
+			"mean_stages": 3.8,
+			"name": "First Light",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 2.0,
+			"mean_par_seconds": 48.6,
+			"mean_par_slack_seconds": 39.6491666666666,
+			"mean_searched_seconds": 8.95083333333343,
+			"mean_stages": 4.2,
+			"name": "Tidal Circuit",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 3.0,
+			"mean_par_seconds": 52.5,
+			"mean_par_slack_seconds": 45.8366666666666,
+			"mean_searched_seconds": 6.66333333333342,
+			"mean_stages": 4.5,
+			"name": "Prism Orchard",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 4.0,
+			"mean_par_seconds": 55.9,
+			"mean_par_slack_seconds": 45.9841666666666,
+			"mean_searched_seconds": 9.91583333333336,
+			"mean_stages": 4.5,
+			"name": "Pulse Foundry",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 5.0,
+			"mean_par_seconds": 58.9,
+			"mean_par_slack_seconds": 48.8925,
+			"mean_searched_seconds": 10.0075,
+			"mean_stages": 4.5,
+			"name": "Glass Relay",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 6.0,
+			"mean_par_seconds": 59.2,
+			"mean_par_slack_seconds": 50.6666666666666,
+			"mean_searched_seconds": 8.53333333333341,
+			"mean_stages": 4.5,
+			"name": "Inverse Sky",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 7.0,
+			"mean_par_seconds": 63.4,
+			"mean_par_slack_seconds": 54.6191666666666,
+			"mean_searched_seconds": 8.78083333333341,
+			"mean_stages": 5.0,
+			"name": "Ember Archive",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 8.0,
+			"mean_par_seconds": 66.6,
+			"mean_par_slack_seconds": 57.0325,
+			"mean_searched_seconds": 9.56750000000004,
+			"mean_stages": 5.3,
+			"name": "Ion Cathedral",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 10,
+			"id": 9.0,
+			"mean_par_seconds": 69.7,
+			"mean_par_slack_seconds": 60.3933333333333,
+			"mean_searched_seconds": 9.30666666666672,
+			"mean_stages": 5.8,
+			"name": "Velvet Paradox",
+			"three_star_baselines": 10
+		},
+		{
+			"centered_100ms_routes": 8,
+			"id": 10.0,
+			"mean_par_seconds": 74.3,
+			"mean_par_slack_seconds": 65.2741666666666,
+			"mean_searched_seconds": 9.02583333333339,
+			"mean_stages": 6.5,
+			"name": "White Horizon",
+			"three_star_baselines": 10
+		}
+	]
+}
