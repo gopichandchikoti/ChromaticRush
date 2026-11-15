@@ -6,6 +6,7 @@ Chromatic Rush is a native, offline arcade game about timing an orb through movi
 One input controls the action, while **100 authored levels across 10 worlds** introduce new ways
 to read a pattern, choose a launch and recover from a missed beat. Built with **Godot 4.7.2 and
 typed GDScript**, it runs on Android with a Windows desktop preview.
+**Live demo:** https://chromatic-rush.vercel.app
 
 [How to run](#how-to-run) ? [How to play](#how-to-play) ? [What makes it fun](#what-makes-it-fun) ?
 [Architecture and flowcharts](docs/ARCHITECTURE.md) ? [Release evidence](docs/RELEASE.md)
